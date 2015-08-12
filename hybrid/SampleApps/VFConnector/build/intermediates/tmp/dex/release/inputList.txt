@@ -1,0 +1,7 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/classes/release
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/release/android-junit-report-1.5.8-bb4a09d99fe2476e8259eb8d1a63e7ebc8ad98b7.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/release/httpmime-4.3.2-aaf197c3ca27cbe2ddb9f05bab2158cebab78c7b.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/release/volley_android-4.4.2_r2-b2cc7c00bee02f67424645c25e722aed399d321b.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/release/apache-mime4j-0.7.2-720e0b65a1f0e4fc96886db07b48e21d7cc58f28.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/release/classes-a6dcc7ee9fc5b8f3f773db89281cb6572dd18609.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/release/guava-18.0-3916a61019f1ec7ac7e96fcc6592bae629e41a9e.jar

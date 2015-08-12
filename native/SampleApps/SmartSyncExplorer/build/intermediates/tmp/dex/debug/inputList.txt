@@ -1,0 +1,10 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/classes/debug
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-df058685a5e53076edeebb14b0457817609a51c7.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/httpmime-4.3.2-d37ae18e2746bf08542cb025b2f3d93baf862ff4.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/classes-9c6948d5814a6cfc6bd298aff6a54e9ac9d04702.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-bf2c9ce9b10c46b20c1c65da18b986af95c05624.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/classes-36ca0b0baffd041adaa5498a84a541194604500c.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-8467dec0390f64e9870c08fa030df1e0568e539d.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/sqlcipher-7e63c817591cdbef423a51ac82bcccdbe55e7634.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/classes-8badcb4d64ab9971949984ba6134dbaea78d74c3.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/guava-18.0-04faaa2e8c3eab65d3f344f116fe1e3300bf6b3b.jar

@@ -1,0 +1,7 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/classes/debug
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-05e21ee0ae00d6ee8cb5defa73b2d831b39d3562.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/httpmime-4.3.2-5481a7fd1a513fb7e4ba1ac785599a0ebd8e6347.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-4d4d73e5277906d75023103af57e953599e60eae.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-f04e2d03a1a9008d9f6e3a50df5455784969ff28.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/classes-0d1c3c8abfa97ea2c663ea933ac279e7dd3dd357.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/guava-18.0-9c268e387b8076e3b68c9bee0e2c60a56ceebf51.jar

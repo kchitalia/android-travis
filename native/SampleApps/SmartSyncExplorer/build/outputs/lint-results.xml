@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.3.3">
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
+
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="    attributes.put(Constants.TYPE.toLowerCase(), Constants.CONTACT);"
+        errorLine2="                                  ~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/src/com/salesforce/samples/smartsyncexplorer/ui/DetailActivity.java"
+            line="229"
+            column="35"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
+
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="   final String filterString = constraint.toString().toLowerCase();"
+        errorLine2="                                                     ~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/src/com/salesforce/samples/smartsyncexplorer/ui/MainActivity.java"
+            line="419"
+            column="54"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
+
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="    if (filterableString.toLowerCase().contains(filterString)) {"
+        errorLine2="                         ~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/src/com/salesforce/samples/smartsyncexplorer/ui/MainActivity.java"
+            line="425"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="GradleDeprecated"
+        severity="Warning"
+        message="&apos;android&apos; is deprecated; use &apos;com.android.application&apos; instead"
+        category="Correctness"
+        priority="6"
+        summary="Deprecated Gradle Construct"
+        explanation="This detector looks for deprecated Gradle constructs which currently work but will likely stop working in a future update."
+        errorLine1="apply plugin: &apos;android&apos;"
+        errorLine2="~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build.gradle"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        severity="Warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
+        category="Correctness"
+        priority="6"
+        summary="Target SDK attribute is not targeting latest version"
+        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.
+
+To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        url="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        urls="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        errorLine1="        android:targetSdkVersion=&quot;21&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/AndroidManifest.xml"
+            line="53"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ManifestOrder"
+        severity="Warning"
+        message="`&lt;uses-sdk>` tag appears after `&lt;application>` tag"
+        category="Correctness"
+        priority="5"
+        summary="Incorrect order of elements in manifest"
+        explanation="The &lt;application> tag should appear after the elements which declare which version you need, which features you need, which libraries you need, and so on. In the past there have been subtle bugs (such as themes not getting applied correctly) when the `&lt;application>` tag appears before some of these other elements, so it&apos;s best to order your manifest in the logical dependency order."
+        errorLine1="    &lt;uses-sdk android:minSdkVersion=&quot;17&quot;"
+        errorLine2="    ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/AndroidManifest.xml"
+            line="52"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ExportedContentProvider"
+        severity="Warning"
+        message="Exported content providers can provide access to potentially sensitive data"
+        category="Security"
+        priority="5"
+        summary="Content provider does not require permission"
+        explanation="Content providers are exported by default and any application on the system can potentially use them to read and write data. If the content provider provides access to sensitive data, it should be protected by specifying `export=false` in the manifest or by protecting it with a permission that can be granted to other applications."
+        errorLine1="        &lt;provider android:name=&quot;com.salesforce.samples.smartsyncexplorer.sync.ContactProvider&quot;"
+        errorLine2="        ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/AndroidManifest.xml"
+            line="44"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ExportedService"
+        severity="Warning"
+        message="Exported service does not require permission"
+        category="Security"
+        priority="5"
+        summary="Exported service does not require permission"
+        explanation="Exported services (services which either set `exported=true` or contain an intent-filter and do not specify `exported=false`) should define a permission that an entity must have in order to launch the service or bind to it. Without this, any application can use this service."
+        errorLine1="        &lt;service android:name=&quot;com.salesforce.samples.smartsyncexplorer.sync.ContactSyncService&quot;"
+        errorLine2="        ^"
+        quickfix="studio,adt">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/AndroidManifest.xml"
+            line="33"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="AllowBackup"
+        severity="Warning"
+        message="Should explicitly set `android:allowBackup` to `true` or `false` (it&apos;s `true` by default, and that can have some security implications for the application&apos;s data)"
+        category="Security"
+        priority="3"
+        summary="Missing `allowBackup` attribute"
+        explanation="The allowBackup attribute determines if an application&apos;s data can be backed up and restored. It is documented at http://developer.android.com/reference/android/R.attr.html#allowBackup
+
+By default, this flag is set to `true`. When this flag is set to `true`, application data can be backed up and restored by the user using `adb backup` and `adb restore`.
+
+This may have security consequences for an application. `adb backup` allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. `adb restore` allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself.
+
+Setting `allowBackup=&quot;false&quot;` opts an application out of both backup and restore.
+
+To fix this warning, decide whether your application should support backup, and explicitly set `android:allowBackup=(true|false)&quot;`"
+        url="http://developer.android.com/reference/android/R.attr.html#allowBackup"
+        urls="http://developer.android.com/reference/android/R.attr.html#allowBackup"
+        errorLine1=" &lt;application android:icon=&quot;@drawable/sf__icon&quot;"
+        errorLine2=" ^"
+        quickfix="studio,adt">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/AndroidManifest.xml"
+            line="9"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        severity="Warning"
+        message="Possible overdraw: Root element paints background `@android:color/white` with a theme that also paints a background (inferred theme is `@style/SalesforceSDK_ActionBarTheme`)"
+        category="Performance"
+        priority="3"
+        summary="Overdraw: Painting regions more than once"
+        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.
+
+NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.
+
+If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.
+
+Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead.
+"
+        errorLine1="    android:background=&quot;@android:color/white&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/detail.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        severity="Warning"
+        message="Possible overdraw: Root element paints background `@android:color/white` with a theme that also paints a background (inferred theme is `@style/SalesforceSDK_ActionBarTheme`)"
+        category="Performance"
+        priority="3"
+        summary="Overdraw: Painting regions more than once"
+        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.
+
+NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.
+
+If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.
+
+Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead.
+"
+        errorLine1="    android:background=&quot;@android:color/white&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/main.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.switch_user_button` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1=" &lt;string name=&quot;switch_user_button&quot;>Switch User&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/values/strings.xml"
+            line="8"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/sync_local.jpeg` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/drawable/sync_local.jpeg"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/sync_success.jpeg` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/drawable/sync_success.jpeg"/>
+    </issue>
+
+    <issue
+        id="IconMissingDensityFolder"
+        severity="Warning"
+        message="Missing density variation folders in `res`: drawable-xxxhdpi"
+        category="Usability:Icons"
+        priority="3"
+        summary="Missing density folder"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as `drawable-hdpi`.
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res"/>
+    </issue>
+
+    <issue
+        id="SmallSp"
+        severity="Warning"
+        message="Avoid using sizes smaller than `12sp`: `10sp`"
+        category="Usability"
+        priority="4"
+        summary="Text size is too small"
+        explanation="Avoid using sizes smaller than 12sp."
+        errorLine1="            android:textSize=&quot;10sp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/list_item.xml"
+            line="36"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.
+
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.
+
+Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="    &lt;ImageView android:id=&quot;@+id/sync_status_view&quot;"
+        errorLine2="    ^"
+        quickfix="studio,adt">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/list_item.xml"
+            line="43"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/first_name_field&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="        &lt;EditText android:id=&quot;@+id/first_name_field&quot;"
+        errorLine2="        ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/detail.xml"
+            line="21"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/last_name_field&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="        &lt;EditText android:id=&quot;@+id/last_name_field&quot;"
+        errorLine2="        ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/detail.xml"
+            line="41"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/title_field&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="        &lt;EditText android:id=&quot;@+id/title_field&quot;"
+        errorLine2="        ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/detail.xml"
+            line="61"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/phone_field&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="        &lt;EditText android:id=&quot;@+id/phone_field&quot;"
+        errorLine2="        ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/detail.xml"
+            line="81"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/email_field&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="        &lt;EditText android:id=&quot;@+id/email_field&quot;"
+        errorLine2="        ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/detail.xml"
+            line="101"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/department_field&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="        &lt;EditText android:id=&quot;@+id/department_field&quot;"
+        errorLine2="        ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/detail.xml"
+            line="121"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/home_phone_field&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="        &lt;EditText android:id=&quot;@+id/home_phone_field&quot;"
+        errorLine2="        ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/detail.xml"
+            line="141"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RelativeOverlap"
+        severity="Warning"
+        message="`@id/obj_layout` can overlap `@id/obj_image` if @id/obj_layout grows due to localized text expansion"
+        category="Internationalization"
+        priority="3"
+        summary="Overlapping items in RelativeLayout"
+        explanation="If relative layout has text or button items aligned to left and right sides they can overlap each other due to localized text expansion unless they have mutual constraints like `toEndOf`/`toStartOf`."
+        errorLine1="    &lt;LinearLayout android:id=&quot;@+id/obj_layout&quot;"
+        errorLine2="    ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/list_item.xml"
+            line="18"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;16dp&quot;` to better support right-to-left layouts"
+        category="Bi-directional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.
+For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.
+(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="        android:paddingLeft=&quot;16dp&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/list_item.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider replacing `android:paddingRight` with `android:paddingEnd=&quot;10dp&quot;` to better support right-to-left layouts"
+        category="Bi-directional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.
+For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.
+(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="        android:paddingRight=&quot;10dp&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/list_item.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider replacing `android:layout_toRightOf` with `android:layout_toEndOf=&quot;@id/obj_image&quot;` to better support right-to-left layouts"
+        category="Bi-directional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.
+For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.
+(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="        android:layout_toRightOf=&quot;@id/obj_image&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/list_item.xml"
+            line="21"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider replacing `android:layout_alignParentRight` with `android:layout_alignParentEnd=&quot;true&quot;` to better support right-to-left layouts"
+        category="Bi-directional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.
+For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.
+(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="        android:layout_alignParentRight=&quot;true&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/res/layout/list_item.xml"
+            line="44"
+            column="9"/>
+    </issue>
+
+</issues>

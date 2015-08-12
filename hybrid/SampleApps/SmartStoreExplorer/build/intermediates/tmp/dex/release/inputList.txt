@@ -1,0 +1,9 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/classes/release
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/release/android-junit-report-1.5.8-d1f6819073a32b812501d34d02f1531f08230d97.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/release/httpmime-4.3.2-12c35ff47881c10b0e92cbfccb48c4820f5807f7.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/release/volley_android-4.4.2_r2-f16e4b931c217da737f0da5c96e0602f85a5c3e3.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/release/classes-9bded61a7c3be70d85839a3c7cc5246d4b9f3eca.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/release/apache-mime4j-0.7.2-1e846bd915358b50b359414c6d632aa3f2bb4440.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/release/sqlcipher-48e020968d86e5eb5d95b2154b4391aee4b0a6a3.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/release/classes-ea478cb5c5285585bd21a423915df29d3c50847b.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/release/guava-18.0-7f89a322192490e685a055927ba2270be4430fbd.jar

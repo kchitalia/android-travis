@@ -1,0 +1,9 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/classes/release
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/release/android-junit-report-1.5.8-b7eca9daf107888f40e857f2d63b273e415d0a3c.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/release/httpmime-4.3.2-a4123015f96b46ea8ef285ba0f2162dd123aeca0.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/release/volley_android-4.4.2_r2-84f9ecf5ee131bf093e5269231f8072f533b5285.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/release/classes-45380c9079fc11d5c1be40be0dd3ae57845f1b94.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/release/apache-mime4j-0.7.2-6b03dfd841e6bed0d810c39bb1b16a6711c4544a.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/release/sqlcipher-98910087cbacc182dcf101e4958dea312ca4d670.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/release/classes-2522f3b19063866a940546ee9c61f59ec51f8a96.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/release/guava-18.0-48d71cb198a4927950b0237fcc8c4cd4e0600edd.jar

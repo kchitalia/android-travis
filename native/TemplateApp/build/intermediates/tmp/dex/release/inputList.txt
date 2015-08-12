@@ -1,0 +1,7 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/classes/release
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/release/android-junit-report-1.5.8-5cd1613f69d5b0bffb29e49dfc106c84fdafda6e.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/release/httpmime-4.3.2-9f91338b3803af9f4b9731a3be2c02934fd9d51b.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/release/volley_android-4.4.2_r2-d9ae9c4a7ca697803834207e43c8b6e880e6adbd.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/release/apache-mime4j-0.7.2-74be4a0583c50896ed8ada03e067b92c93c5113a.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/release/classes-67bd90e0f4ed5f5c76eac1ace754e18391ec6970.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/release/guava-18.0-df962a3c4f97f16457ff3269df0d071e64a30c7c.jar

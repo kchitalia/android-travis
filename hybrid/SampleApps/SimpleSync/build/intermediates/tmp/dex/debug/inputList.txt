@@ -1,0 +1,10 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/classes/debug
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-411c5a22f56bf911a0e4892a55b4a83c7313a8df.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/httpmime-4.3.2-7f0049956e9f1fb8e8e260756c3a2191fd69cad1.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/classes-7be909b4b1c0ac9a1ab371645405a37d3036f5fc.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-0347c06b2f676442965d3581d0de0100111f3185.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/classes-f1b04e10c765897106947fea7a6aae767c87de3e.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-a45e071a4b85b2b83d7f0d1d3a1ffa5835d8a966.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/sqlcipher-6ba32c436bc4d3d9e6be73f509342444ea83b032.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/classes-97a72f08237c1a800e8d5d6e922ac26e9406a82c.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/guava-18.0-c4764ad2131ae8ba6e8ede3a73bebfd883a23de2.jar

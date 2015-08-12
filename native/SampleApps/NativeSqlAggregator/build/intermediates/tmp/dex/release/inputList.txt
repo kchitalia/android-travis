@@ -1,0 +1,9 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/classes/release
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/release/android-junit-report-1.5.8-34ec36e6c463702f838bd66c878b08fa709b5ff2.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/release/httpmime-4.3.2-44eda2edaae16de2c83d887bb035025cf8398030.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/release/volley_android-4.4.2_r2-d126906aadb856f1532d3ae1203dfb6a187b9dbf.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/release/classes-c14d66b749389d1ffcfb7ff916aaf3570096db5c.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/release/apache-mime4j-0.7.2-de19c18b91cd61f90dc969ec1b34d1e42b050a1f.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/release/sqlcipher-605599f1b2a039741e3fdaf86f18258232decc21.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/release/classes-6fddbda8b4acf2730b9b88e2b199b06adb2f23db.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/release/guava-18.0-2171f7a71f4916b1d6178209f944fe5fbfe2b24d.jar

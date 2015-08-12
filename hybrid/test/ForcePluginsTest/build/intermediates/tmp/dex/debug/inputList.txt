@@ -1,0 +1,10 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/classes/debug
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-51f4af822b64f4a892558cedcc7128d424ecab83.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/httpmime-4.3.2-33d181d546b4374c3d344a2841213f7d646aaf25.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/classes-1fb1d4d071d6217a4dfcd676b9c284247434fd7d.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-855767622b09a73f94f32c6d76c6b8a98d6e64fc.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/classes-77be638d1125493b1eb582c13e8b0beff737450e.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-35cdefa6f094234962b6ff53dc40fc79ab8be00d.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/sqlcipher-f0a620c5d217c35ddbadaedff17ce456c489e026.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/classes-457b157db82fd006ecf8c93d2ffd00ca77faf78f.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/guava-18.0-50bebfdadc2283bd22fbbf1b081d762f39ac9db6.jar

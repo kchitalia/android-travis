@@ -1,0 +1,10 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/classes/release
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/release/android-junit-report-1.5.8-c79905ec5188eef70a9593c3412323464e0a3fbe.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/release/httpmime-4.3.2-c0ae488c5d095a42b3a38541402ce13f1c2b4f96.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/release/classes-990035992e9827abea6fe4136d98e83a4ca114ab.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/release/volley_android-4.4.2_r2-339212581d7f5b7e2434b6aad611510ff0baf49d.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/release/classes-d45573959deb7807a2518ae8cdf685e962c50edc.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/release/apache-mime4j-0.7.2-d1071232bad7de38de31dabc39f5bd4e7f678af2.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/release/sqlcipher-c900fd8be9f5038a3a0682e771a6cfe23ce2aab6.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/release/classes-5eec0a3fab4c0aa26e330501f17b79f1b4208b9d.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/release/guava-18.0-a9f54cc2380cb6c2540305e8b7100bdab3357e1d.jar

@@ -1,0 +1,7 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/classes/debug
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-73455d307302453db089ca0f5e5a7c8045f6f275.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/httpmime-4.3.2-a68529da813b556f349b83b09dd085407c881134.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-5181c948748ce4156236f5f7cffc576372f82fd1.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-2336cfd8772476d5b5ea7d19c192ba1a6a7badc7.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/classes-ed0e44dcdd51ae1959a6888992e14591620418bb.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/guava-18.0-5f9a9486faa163841c7743c0fb0bc6fab02263a3.jar

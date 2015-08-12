@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.3.3">
+
+    <issue
+        id="GradleDeprecated"
+        severity="Warning"
+        message="&apos;android&apos; is deprecated; use &apos;com.android.application&apos; instead"
+        category="Correctness"
+        priority="6"
+        summary="Deprecated Gradle Construct"
+        explanation="This detector looks for deprecated Gradle constructs which currently work but will likely stop working in a future update."
+        errorLine1="apply plugin: &apos;android&apos;"
+        errorLine2="~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build.gradle"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        severity="Warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
+        category="Correctness"
+        priority="6"
+        summary="Target SDK attribute is not targeting latest version"
+        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.
+
+To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        url="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        urls="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        errorLine1="        android:targetSdkVersion=&quot;21&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/AndroidManifest.xml"
+            line="9"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.activity_horizontal_margin` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;dimen name=&quot;activity_horizontal_margin&quot;>16dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/values/dimens.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.activity_vertical_margin` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;dimen name=&quot;activity_vertical_margin&quot;>16dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/values/dimens.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.margin_tiny` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;dimen name=&quot;margin_tiny&quot;>4dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/values/template-dimens.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.margin_small` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;dimen name=&quot;margin_small&quot;>8dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/values/template-dimens.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.margin_large` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;dimen name=&quot;margin_large&quot;>32dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/values/template-dimens.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in `drawable-mdpi`: tile.9.png (found in drawable-hdpi)"
+        category="Usability:Icons"
+        priority="4"
+        summary="Icon densities validation"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/drawable-mdpi"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in `drawable-xhdpi`: tile.9.png (found in drawable-hdpi)"
+        category="Usability:Icons"
+        priority="4"
+        summary="Icon densities validation"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/drawable-xhdpi"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in `drawable-xxhdpi`: tile.9.png (found in drawable-hdpi)"
+        category="Usability:Icons"
+        priority="4"
+        summary="Icon densities validation"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/drawable-xxhdpi"/>
+    </issue>
+
+    <issue
+        id="IconMissingDensityFolder"
+        severity="Warning"
+        message="Missing density variation folders in `res`: drawable-xxxhdpi"
+        category="Usability:Icons"
+        priority="3"
+        summary="Missing density folder"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as `drawable-hdpi`.
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res"/>
+    </issue>
+
+    <issue
+        id="TextFields"
+        severity="Warning"
+        message="This text field does not specify an `inputType` or a `hint`"
+        category="Usability"
+        priority="5"
+        summary="Missing `inputType` or `hint`"
+        explanation="Providing an `inputType` attribute on a text field improves usability because depending on the data to be input, optimized keyboards can be shown to the user (such as just digits and parentheses for a phone number). Similarly,a hint attribute displays a hint to the user for what is expected in the text field.
+
+The lint detector also looks at the `id` of the view, and if the id offers a hint of the purpose of the field (for example, the `id` contains the phrase `phone` or `email`), then lint will also ensure that the `inputType` contains the corresponding type attributes.
+
+If you really want to keep the text field generic, you can suppress this warning by setting `inputType=&quot;text&quot;`."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^"
+        quickfix="studio,adt">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="16"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="TextFields"
+        severity="Warning"
+        message="This text field does not specify an `inputType` or a `hint`"
+        category="Usability"
+        priority="5"
+        summary="Missing `inputType` or `hint`"
+        explanation="Providing an `inputType` attribute on a text field improves usability because depending on the data to be input, optimized keyboards can be shown to the user (such as just digits and parentheses for a phone number). Similarly,a hint attribute displays a hint to the user for what is expected in the text field.
+
+The lint detector also looks at the `id` of the view, and if the id offers a hint of the purpose of the field (for example, the `id` contains the phrase `phone` or `email`), then lint will also ensure that the `inputType` contains the corresponding type attributes.
+
+If you really want to keep the text field generic, you can suppress this warning by setting `inputType=&quot;text&quot;`."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^"
+        quickfix="studio,adt">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="21"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="TextFields"
+        severity="Warning"
+        message="This text field does not specify an `inputType` or a `hint`"
+        category="Usability"
+        priority="5"
+        summary="Missing `inputType` or `hint`"
+        explanation="Providing an `inputType` attribute on a text field improves usability because depending on the data to be input, optimized keyboards can be shown to the user (such as just digits and parentheses for a phone number). Similarly,a hint attribute displays a hint to the user for what is expected in the text field.
+
+The lint detector also looks at the `id` of the view, and if the id offers a hint of the purpose of the field (for example, the `id` contains the phrase `phone` or `email`), then lint will also ensure that the `inputType` contains the corresponding type attributes.
+
+If you really want to keep the text field generic, you can suppress this warning by setting `inputType=&quot;text&quot;`."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^"
+        quickfix="studio,adt">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="26"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="TextFields"
+        severity="Warning"
+        message="This text field does not specify an `inputType` or a `hint`"
+        category="Usability"
+        priority="5"
+        summary="Missing `inputType` or `hint`"
+        explanation="Providing an `inputType` attribute on a text field improves usability because depending on the data to be input, optimized keyboards can be shown to the user (such as just digits and parentheses for a phone number). Similarly,a hint attribute displays a hint to the user for what is expected in the text field.
+
+The lint detector also looks at the `id` of the view, and if the id offers a hint of the purpose of the field (for example, the `id` contains the phrase `phone` or `email`), then lint will also ensure that the `inputType` contains the corresponding type attributes.
+
+If you really want to keep the text field generic, you can suppress this warning by setting `inputType=&quot;text&quot;`."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^"
+        quickfix="studio,adt">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="31"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="TextFields"
+        severity="Warning"
+        message="The view name (`@+id/oauth_redirect_uri`) suggests this is a URI, but it does not include &apos;`textUri`&apos; in the `inputType`"
+        category="Usability"
+        priority="5"
+        summary="Missing `inputType` or `hint`"
+        explanation="Providing an `inputType` attribute on a text field improves usability because depending on the data to be input, optimized keyboards can be shown to the user (such as just digits and parentheses for a phone number). Similarly,a hint attribute displays a hint to the user for what is expected in the text field.
+
+The lint detector also looks at the `id` of the view, and if the id offers a hint of the purpose of the field (for example, the `id` contains the phrase `phone` or `email`), then lint will also ensure that the `inputType` contains the corresponding type attributes.
+
+If you really want to keep the text field generic, you can suppress this warning by setting `inputType=&quot;text&quot;`."
+        errorLine1="        android:id=&quot;@+id/oauth_redirect_uri&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio,adt">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="32"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="TextFields"
+        severity="Warning"
+        message="This text field does not specify an `inputType` or a `hint`"
+        category="Usability"
+        priority="5"
+        summary="Missing `inputType` or `hint`"
+        explanation="Providing an `inputType` attribute on a text field improves usability because depending on the data to be input, optimized keyboards can be shown to the user (such as just digits and parentheses for a phone number). Similarly,a hint attribute displays a hint to the user for what is expected in the text field.
+
+The lint detector also looks at the `id` of the view, and if the id offers a hint of the purpose of the field (for example, the `id` contains the phrase `phone` or `email`), then lint will also ensure that the `inputType` contains the corresponding type attributes.
+
+If you really want to keep the text field generic, you can suppress this warning by setting `inputType=&quot;text&quot;`."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^"
+        quickfix="studio,adt">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="36"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/login_servers&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="16"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/login_servers_labels&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="21"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/remote_access_consumer_key&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="26"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/oauth_redirect_uri&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="31"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        severity="Warning"
+        message="No label views point to this text field with an `android:labelFor=&quot;@+id/@+id/cert_alias&quot;` attribute"
+        category="Accessibility"
+        priority="2"
+        summary="Missing `labelFor` attribute"
+        explanation="Text fields should be labelled with a `labelFor` attribute, provided your `minSdkVersion` is at least 17.
+
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint."
+        errorLine1="    &lt;EditText"
+        errorLine2="    ^">
+        <location
+            file="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/res/layout/fragment_configure_app.xml"
+            line="36"
+            column="5"/>
+    </issue>
+
+</issues>

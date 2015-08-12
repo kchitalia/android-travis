@@ -1,0 +1,9 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/classes/release
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/release/android-junit-report-1.5.8-62af66f66bbdef3e592cf06dc8e3ca4376c30367.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/release/httpmime-4.3.2-a6c7f84b9ee418eb6aa5c6229e030e53b84f9582.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/release/volley_android-4.4.2_r2-ab685110852f661ee1f762dc35b05de96056091e.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/release/classes-877020965537e4be81700190d99c021d74891d6e.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/release/apache-mime4j-0.7.2-8f29ef0ac670c2e1f03286049f6e141e4131973b.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/release/sqlcipher-b38e9c37aa9eaacdaaeb8115907ffc497a71ecaf.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/release/classes-5e9559236aad296090874de74e49a00bd0f5ca49.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/release/guava-18.0-3be9af83b2e170d5017b4c6ffd40f14323746ec6.jar

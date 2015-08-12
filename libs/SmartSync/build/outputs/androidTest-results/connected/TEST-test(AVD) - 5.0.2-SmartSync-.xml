@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.salesforce.androidsdk.smartsync.manager.CacheManagerTest" tests="43" failures="4" errors="0" skipped="0" time="168.936" timestamp="2015-08-11T22:58:07" hostname="localhost">
+  <properties>
+    <property name="device" value="test(AVD) - 5.0.2" />
+    <property name="flavor" value="" />
+    <property name="project" value="SmartSync" />
+  </properties>
+  <testcase name="testHardReset" classname="com.salesforce.androidsdk.smartsync.manager.CacheManagerTest" time="4.925" />
+  <testcase name="testReadObjectLayouts" classname="com.salesforce.androidsdk.smartsync.manager.CacheManagerTest" time="1.513" />
+  <testcase name="testReadObjectTypes" classname="com.salesforce.androidsdk.smartsync.manager.CacheManagerTest" time="1.475" />
+  <testcase name="testReadObjects" classname="com.salesforce.androidsdk.smartsync.manager.CacheManagerTest" time="1.002" />
+  <testcase name="testRemoveMRUCache" classname="com.salesforce.androidsdk.smartsync.manager.CacheManagerTest" time="1.016" />
+  <testcase name="testSoftReset" classname="com.salesforce.androidsdk.smartsync.manager.CacheManagerTest" time="1.112" />
+  <testcase name="testLoadAccountMRUObjectsFromCache" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.419">
+    <failure>junit.framework.AssertionFailedError: MRU list should not be null
+at com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest.testLoadAccountMRUObjectsFromCache(MetadataManagerTest.java:172)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner.access$001(TimeLimitedTestRunner.java:43)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner$1.call(TimeLimitedTestRunner.java:58)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner$1.call(TimeLimitedTestRunner.java:55)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+at java.lang.Thread.run(Thread.java:818)
+</failure>
+  </testcase>
+  <testcase name="testLoadAccountMRUObjectsFromServer" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.507">
+    <failure>junit.framework.AssertionFailedError: MRU list should not be null
+at com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest.testLoadAccountMRUObjectsFromServer(MetadataManagerTest.java:76)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner.access$001(TimeLimitedTestRunner.java:43)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner$1.call(TimeLimitedTestRunner.java:58)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner$1.call(TimeLimitedTestRunner.java:55)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+at java.lang.Thread.run(Thread.java:818)
+</failure>
+  </testcase>
+  <testcase name="testLoadAccountObjectTypeFromCache" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.309" />
+  <testcase name="testLoadAccountObjectTypeFromServer" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.212" />
+  <testcase name="testLoadAllObjectTypesFromCache" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.567" />
+  <testcase name="testLoadAllObjectTypesFromServer" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.387" />
+  <testcase name="testLoadCaseObjectTypeFromCache" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.405" />
+  <testcase name="testLoadCaseObjectTypeFromServer" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.215" />
+  <testcase name="testLoadGlobalMRUObjectsFromCache" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.473" />
+  <testcase name="testLoadGlobalMRUObjectsFromServer" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.363" />
+  <testcase name="testLoadObjectTypeLayoutsFromCache" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="2.035" />
+  <testcase name="testLoadObjectTypeLayoutsFromServer" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="2.108" />
+  <testcase name="testLoadOpportunityMRUObjectsFromCache" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.553">
+    <failure>junit.framework.AssertionFailedError: MRU list should not be null
+at com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest.testLoadOpportunityMRUObjectsFromCache(MetadataManagerTest.java:197)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner.access$001(TimeLimitedTestRunner.java:43)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner$1.call(TimeLimitedTestRunner.java:58)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner$1.call(TimeLimitedTestRunner.java:55)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+at java.lang.Thread.run(Thread.java:818)
+</failure>
+  </testcase>
+  <testcase name="testLoadOpportunityMRUObjectsFromServer" classname="com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest" time="1.51">
+    <failure>junit.framework.AssertionFailedError: MRU list should not be null
+at com.salesforce.androidsdk.smartsync.manager.MetadataManagerTest.testLoadOpportunityMRUObjectsFromServer(MetadataManagerTest.java:89)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner.access$001(TimeLimitedTestRunner.java:43)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner$1.call(TimeLimitedTestRunner.java:58)
+at com.salesforce.androidsdk.util.test.TimeLimitedTestRunner$1.call(TimeLimitedTestRunner.java:55)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+at java.lang.Thread.run(Thread.java:818)
+</failure>
+  </testcase>
+  <testcase name="testAddFilterForResync" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="6.282" />
+  <testcase name="testCustomSyncUpWithLocallyCreatedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="6.047" />
+  <testcase name="testCustomSyncUpWithLocallyDeletedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="5.829" />
+  <testcase name="testCustomSyncUpWithLocallyUpdatedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="5.522" />
+  <testcase name="testGetSyncStatusForInvalidSyncId" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="4.94" />
+  <testcase name="testHardFailingCustomSyncUpWithLocallyCreatedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="4.932" />
+  <testcase name="testHardFailingCustomSyncUpWithLocallyDeletedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="5.013" />
+  <testcase name="testHardFailingCustomSyncUpWithLocallyUpdatedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="5.133" />
+  <testcase name="testReSync" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="7.321" />
+  <testcase name="testReSyncRunningSync" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="7.47" />
+  <testcase name="testSoftFailingCustomSyncUpWithLocallyCreatedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="5.13" />
+  <testcase name="testSoftFailingCustomSyncUpWithLocallyDeletedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="5.017" />
+  <testcase name="testSoftFailingCustomSyncUpWithLocallyUpdatedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="5.164" />
+  <testcase name="testSyncDown" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="6.009" />
+  <testcase name="testSyncDownWithoutOverwrite" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="5.405" />
+  <testcase name="testSyncUpWithLocallyCreatedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="6.145" />
+  <testcase name="testSyncUpWithLocallyDeletedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="5.805" />
+  <testcase name="testSyncUpWithLocallyDeletedRecordsWithoutOverwrite" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="7.229" />
+  <testcase name="testSyncUpWithLocallyDeletedRemotelyDeletedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="6.39" />
+  <testcase name="testSyncUpWithLocallyUpdatedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="6.103" />
+  <testcase name="testSyncUpWithLocallyUpdatedRecordsWithoutOverwrite" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="7.026" />
+  <testcase name="testSyncUpWithLocallyUpdatedRemotelyDeletedRecords" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="6.148" />
+  <testcase name="testSyncUpWithLocallyUpdatedRemotelyDeletedRecordsWithoutOverwrite" classname="com.salesforce.androidsdk.smartsync.manager.SyncManagerTest" time="6.39" />
+</testsuite>

@@ -1,0 +1,1355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Lint Report</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" type="text/css" href="lint-results_files/hololike.css" />
+<script language="javascript" type="text/javascript"> 
+<!--
+function reveal(id) {
+if (document.getElementById) {
+document.getElementById(id).style.display = 'block';
+document.getElementById(id+'Link').style.display = 'none';
+}
+}
+//--> 
+</script>
+</head>
+<body>
+<h1>Lint Report</h1>
+<div class="titleSeparator"></div>
+Check performed at Tue Aug 11 15:45:33 PDT 2015.<br/>
+0 errors and 87 warnings found:<br/><br/>
+<table class="overview">
+<tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#ScrollViewSize">ScrollViewSize: ScrollView size validation</a>
+</td></tr>
+<tr>
+<td class="countColumn">17</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#Assert">Assert: Assertions</a>
+</td></tr>
+<tr>
+<td class="countColumn">24</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#CommitPrefEdits">CommitPrefEdits: Missing <code>commit()</code> on <code>SharedPreference</code> editor</a>
+</td></tr>
+<tr>
+<td class="countColumn">4</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#DefaultLocale">DefaultLocale: Implied default locale in case conversion</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#GradleDeprecated">GradleDeprecated: Deprecated Gradle Construct</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#OldTargetApi">OldTargetApi: Target SDK attribute is not targeting latest version</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#ManifestOrder">ManifestOrder: Incorrect order of elements in manifest</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Security">Security</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#SetJavaScriptEnabled">SetJavaScriptEnabled: Using <code>setJavaScriptEnabled</code></a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#ExportedService">ExportedService: Exported service does not require permission</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Performance">Performance</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#UseSparseArrays">UseSparseArrays: HashMap can be replaced with SparseArray</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#Overdraw">Overdraw: Overdraw: Painting regions more than once</a>
+</td></tr>
+<tr>
+<td class="countColumn">15</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#UnusedResources">UnusedResources: Unused resources</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#UselessParent">UselessParent: Useless parent layout</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#IconDipSize">IconDipSize: Icon density-independent size validation</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#IconDuplicatesConfig">IconDuplicatesConfig: Identical bitmaps across various configurations</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#IconLocation">IconLocation: Image defined in density-independent drawable folder</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#IconDensities">IconDensities: Icon densities validation</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#IconMissingDensityFolder">IconMissingDensityFolder: Missing density folder</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability">Usability</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#ButtonOrder">ButtonOrder: Button order</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#ViewConstructor">ViewConstructor: Missing View constructors for XML inflation</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Accessibility">Accessibility</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#LabelFor">LabelFor: Missing <code>labelFor</code> attribute</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (10)</a>
+</td></tr></table>
+<br/>
+<a name="Correctness"></a>
+<div class="category"><a href="#" title="Return to top">Correctness</a><div class="categorySeparator"></div>
+</div>
+<a name="ScrollViewSize"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ScrollViewSize: ScrollView size validation</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/sf__login.xml">../../res/layout/sf__login.xml</a>:11</span>: <span class="message">This WebView should use <code>android:layout_height="wrap_content"</code></span><br /><pre class="errorlines">
+<span class="lineno">   8</span> 
+<span class="lineno">   9</span>     &lt;WebView android:id="@+id/sf__oauth_webview"
+<span class="lineno">  10</span>         android:layout_width="match_parent"
+<span class="lineno">  11</span>         <span class="errorspan">android:layout_height="match_parent"</span>
+<span class="lineno">  12</span>         android:scrollbars="none" />
+<span class="lineno">  13</span> &lt;/ScrollView>
+</pre>
+<span class="location"><a href="../../res/layout/sf__server_picker.xml">../../res/layout/sf__server_picker.xml</a>:8</span>: <span class="message">This LinearLayout should use <code>android:layout_height="wrap_content"</code></span><br /><pre class="errorlines">
+<span class="lineno">   5</span> 	android:layout_height="match_parent">
+<span class="lineno">   6</span> 
+<span class="lineno">   7</span> 	&lt;LinearLayout android:layout_width="match_parent"
+<span class="lineno">   8</span> 		<span class="errorspan">android:layout_height="match_parent"</span>
+<span class="lineno">   9</span> 		android:orientation="vertical">
+<span class="lineno">  10</span> 
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 7 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: ScrollView size validation.</div>
+<div class="explanation">
+ScrollView children must set their <code>layout_width</code> or <code>layout_height</code> attributes to <code>wrap_content</code> rather than <code>fill_parent</code> or <code>match_parent</code> in the scrolling dimension
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ScrollViewSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="Assert"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">Assert: Assertions</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/com/salesforce/androidsdk/ui/sfhybrid/SalesforceDroidGapActivity.java">../../src/com/salesforce/androidsdk/ui/sfhybrid/SalesforceDroidGapActivity.java</a>:439</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 436</span>      * Load local start page
+<span class="lineno"> 437</span>      */
+<span class="lineno"> 438</span>     public void loadLocalStartPage() {
+<span class="lineno"> 439</span>     	<span class="errorspan">assert bootconfig.isLocal();</span>
+<span class="lineno"> 440</span>     	String startPage = bootconfig.getStartPage();
+<span class="lineno"> 441</span>     	Log.i("SalesforceDroidGapActivity.loadLocalStartPage", "loading: " + startPage);
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/ui/sfhybrid/SalesforceDroidGapActivity.java">../../src/com/salesforce/androidsdk/ui/sfhybrid/SalesforceDroidGapActivity.java</a>:450</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 447</span>      * Load remote start page (front-doored)
+<span class="lineno"> 448</span>      */
+<span class="lineno"> 449</span>     public void loadRemoteStartPage() {
+<span class="lineno"> 450</span>     	<span class="errorspan">assert !bootconfig.isLocal();</span>
+<span class="lineno"> 451</span>     	String startPage = bootconfig.getStartPage();
+<span class="lineno"> 452</span>     	Log.i("SalesforceDroidGapActivity.loadRemoteStartPage", "loading: " + startPage);
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyConnection.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyConnection.java</a>:305</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 302</span>   }
+<span class="lineno"> 303</span> 
+<span class="lineno"> 304</span>   private void close(ErrorCode connectionCode, ErrorCode streamCode) throws IOException {
+<span class="lineno"> 305</span>     <span class="errorspan">assert (!Thread.holdsLock(this));</span>
+<span class="lineno"> 306</span>     IOException thrown = null;
+<span class="lineno"> 307</span>     try {
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:163</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 160</span>    * to the remote peer. Corresponds to {@code FLAG_FIN}.
+<span class="lineno"> 161</span>    */
+<span class="lineno"> 162</span>   public void reply(List&lt;String> responseHeaders, boolean out) throws IOException {
+<span class="lineno"> 163</span>     <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 164</span>     boolean outFinished = false;
+<span class="lineno"> 165</span>     synchronized (this) {
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:240</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 237</span> 
+<span class="lineno"> 238</span>   /** Returns true if this stream was closed. */
+<span class="lineno"> 239</span>   private boolean closeInternal(ErrorCode errorCode) {
+<span class="lineno"> 240</span>     <span class="errorspan">assert (!Thread.holdsLock(this));</span>
+<span class="lineno"> 241</span>     synchronized (this) {
+<span class="lineno"> 242</span>       if (this.errorCode != null) {
+</pre>
+<button id="AssertDivLink" onclick="reveal('AssertDiv');" />+ 12 More Occurrences...</button>
+<div id="AssertDiv" style="display: none">
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:256</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 253</span>   }
+<span class="lineno"> 254</span> 
+<span class="lineno"> 255</span>   void receiveHeaders(List&lt;String> headers, HeadersMode headersMode) {
+<span class="lineno"> 256</span>     <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 257</span>     ErrorCode errorCode = null;
+<span class="lineno"> 258</span>     boolean open = true;
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:287</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 284</span>   }
+<span class="lineno"> 285</span> 
+<span class="lineno"> 286</span>   void receiveData(InputStream in, int length) throws IOException {
+<span class="lineno"> 287</span>     <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 288</span>     this.in.receive(in, length);
+<span class="lineno"> 289</span>   }
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:292</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 289</span>   }
+<span class="lineno"> 290</span> 
+<span class="lineno"> 291</span>   void receiveFin() {
+<span class="lineno"> 292</span>     <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 293</span>     boolean open;
+<span class="lineno"> 294</span>     synchronized (this) {
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:314</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 311</span>   private void setSettings(Settings settings) {
+<span class="lineno"> 312</span>     // TODO: For HTTP/2.0, also adjust the stream flow control window size
+<span class="lineno"> 313</span>     // by the difference between the new value and the old value.
+<span class="lineno"> 314</span>     <span class="errorspan">assert (Thread.holdsLock(connection)); // Because 'settings' is guarded by 'connection'.</span>
+<span class="lineno"> 315</span>     this.writeWindowSize = settings != null
+<span class="lineno"> 316</span>         ? settings.getInitialWindowSize(Settings.DEFAULT_INITIAL_WINDOW_SIZE)
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:321</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 318</span>   }
+<span class="lineno"> 319</span> 
+<span class="lineno"> 320</span>   void receiveSettings(Settings settings) {
+<span class="lineno"> 321</span>     <span class="errorspan">assert (Thread.holdsLock(this));</span>
+<span class="lineno"> 322</span>     setSettings(settings);
+<span class="lineno"> 323</span>     notifyAll();
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:470</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 467</span>     }
+<span class="lineno"> 468</span> 
+<span class="lineno"> 469</span>     void receive(InputStream in, int byteCount) throws IOException {
+<span class="lineno"> 470</span>       <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 471</span> 
+<span class="lineno"> 472</span>       if (byteCount == 0) {
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:548</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 545</span>   }
+<span class="lineno"> 546</span> 
+<span class="lineno"> 547</span>   private void cancelStreamIfNecessary() throws IOException {
+<span class="lineno"> 548</span>     <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 549</span>     boolean open;
+<span class="lineno"> 550</span>     boolean cancel;
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:595</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 592</span>     }
+<span class="lineno"> 593</span> 
+<span class="lineno"> 594</span>     @Override public void write(byte[] bytes, int offset, int count) throws IOException {
+<span class="lineno"> 595</span>       <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 596</span>       checkOffsetAndCount(bytes.length, offset, count);
+<span class="lineno"> 597</span>       checkNotClosed();
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:612</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 609</span>     }
+<span class="lineno"> 610</span> 
+<span class="lineno"> 611</span>     @Override public void flush() throws IOException {
+<span class="lineno"> 612</span>       <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 613</span>       checkNotClosed();
+<span class="lineno"> 614</span>       if (pos > 0) {
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:621</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 618</span>     }
+<span class="lineno"> 619</span> 
+<span class="lineno"> 620</span>     @Override public void close() throws IOException {
+<span class="lineno"> 621</span>       <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 622</span>       synchronized (SpdyStream.this) {
+<span class="lineno"> 623</span>         if (closed) {
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyStream.java</a>:636</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 633</span>     }
+<span class="lineno"> 634</span> 
+<span class="lineno"> 635</span>     private void writeFrame(boolean outFinished) throws IOException {
+<span class="lineno"> 636</span>       <span class="errorspan">assert (!Thread.holdsLock(SpdyStream.this));</span>
+<span class="lineno"> 637</span> 
+<span class="lineno"> 638</span>       int length = pos;
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/util/UriFragmentParser.java">../../src/com/salesforce/androidsdk/util/UriFragmentParser.java</a>:80</span>: <span class="message">Assertions are unreliable. Use <code>BuildConfig.DEBUG</code> conditional checks instead.</span><br /><pre class="errorlines">
+<span class="lineno">  77</span> 	}
+<span class="lineno">  78</span> 
+<span class="lineno">  79</span> 	private UriFragmentParser() {
+<span class="lineno">  80</span> 		<span class="errorspan">assert false : "don't construct me!";</span>
+<span class="lineno">  81</span> 	}
+<span class="lineno">  82</span> }
+</pre>
+</div>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Assertions.</div>
+<div class="explanation">
+Assertions are not checked at runtime. There are ways to request that they be used by Dalvik (<code>adb shell setprop debug.assert 1</code>), but the property is ignored in many places and can not be relied upon. Instead, perform conditional checking inside <code>if (BuildConfig.DEBUG) { }</code> blocks. That constant is a static final boolean which is true in debug builds and false in release builds, and the Java compiler completely removes all code inside the if-body from the app.<br/>
+<br/>
+For example, you can replace <code>assert speed > 0</code> with <code>if (BuildConfig.DEBUG &amp;&amp; !(speed > 0)) { throw new AssertionError() }</code>.<br/>
+<br/>
+(Note: This lint check does not flag assertions purely asserting nullness or non-nullness; these are typically more intended for tools usage than runtime checks.)
+</div>
+<br/><div class="moreinfo">More info: <a href="https://code.google.com/p/android/issues/detail?id=65183">https://code.google.com/p/android/issues/detail?id=65183</a>
+</div><br/>To suppress this error, use the issue id "Assert" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="CommitPrefEdits"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">CommitPrefEdits: Missing <code>commit()</code> on <code>SharedPreference</code> editor</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/com/salesforce/androidsdk/config/AbstractPrefsManager.java">../../src/com/salesforce/androidsdk/config/AbstractPrefsManager.java</a>:73</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno">  70</span>                 final String currentValue = attribs.optString(currentKey);
+<span class="lineno">  71</span>                 e.putString(currentKey, currentValue);
+<span class="lineno">  72</span>             }
+<span class="lineno">  73</span>             <span class="errorspan">e.commit();</span>
+<span class="lineno">  74</span>         }
+<span class="lineno">  75</span>     }
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/config/AbstractPrefsManager.java">../../src/com/salesforce/androidsdk/config/AbstractPrefsManager.java</a>:133</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 130</span>         final SharedPreferences sp = getSharedPreferences(account);
+<span class="lineno"> 131</span>         final Editor editor = sp.edit();
+<span class="lineno"> 132</span>         editor.clear();
+<span class="lineno"> 133</span>         <span class="errorspan">editor.commit();</span>
+<span class="lineno"> 134</span>     }
+<span class="lineno"> 135</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/config/LoginServerManager.java">../../src/com/salesforce/androidsdk/config/LoginServerManager.java</a>:159</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 156</span>         edit.putString(String.format(SERVER_URL, numServers), url);
+<span class="lineno"> 157</span>         edit.putBoolean(String.format(IS_CUSTOM, numServers), true);
+<span class="lineno"> 158</span>         edit.putInt(NUMBER_OF_ENTRIES, ++numServers);
+<span class="lineno"> 159</span>         <span class="errorspan">edit.commit();</span>
+<span class="lineno"> 160</span>         setSelectedLoginServer(new LoginServer(name, url, true));
+<span class="lineno"> 161</span> 	}
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/config/LoginServerManager.java">../../src/com/salesforce/androidsdk/config/LoginServerManager.java</a>:169</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 166</span> 	public void reset() {
+<span class="lineno"> 167</span> 		final Editor edit = settings.edit();
+<span class="lineno"> 168</span> 		edit.clear();
+<span class="lineno"> 169</span> 		<span class="errorspan">edit.commit();</span>
+<span class="lineno"> 170</span> 		initSharedPrefFile();
+<span class="lineno"> 171</span> 	}
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/config/LoginServerManager.java">../../src/com/salesforce/androidsdk/config/LoginServerManager.java</a>:338</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 335</span> 		    }
+<span class="lineno"> 336</span> 		}
+<span class="lineno"> 337</span> 	    edit.putInt(NUMBER_OF_ENTRIES, numServers);
+<span class="lineno"> 338</span> 	    <span class="errorspan">edit.commit();</span>
+<span class="lineno"> 339</span> 	}
+<span class="lineno"> 340</span> 
+</pre>
+<button id="CommitPrefEditsDivLink" onclick="reveal('CommitPrefEditsDiv');" />+ 19 More Occurrences...</button>
+<div id="CommitPrefEditsDiv" style="display: none">
+<span class="location"><a href="../../src/com/salesforce/androidsdk/security/PasscodeManager.java">../../src/com/salesforce/androidsdk/security/PasscodeManager.java</a>:179</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 176</span>         final Editor e = sp.edit();
+<span class="lineno"> 177</span>         e.putInt(KEY_TIMEOUT, timeout);
+<span class="lineno"> 178</span>         e.putInt(KEY_PASSCODE_LENGTH, passLen);
+<span class="lineno"> 179</span>         <span class="errorspan">e.commit();</span>
+<span class="lineno"> 180</span>     }
+<span class="lineno"> 181</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/security/PasscodeManager.java">../../src/com/salesforce/androidsdk/security/PasscodeManager.java</a>:196</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 193</span>             Editor e = sp.edit();
+<span class="lineno"> 194</span>             e.putInt(KEY_TIMEOUT, timeoutMs);
+<span class="lineno"> 195</span>             e.putInt(KEY_PASSCODE_LENGTH, minPasscodeLength);
+<span class="lineno"> 196</span>             <span class="errorspan">e.commit();</span>
+<span class="lineno"> 197</span>         }
+<span class="lineno"> 198</span>     }
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/security/PasscodeManager.java">../../src/com/salesforce/androidsdk/security/PasscodeManager.java</a>:244</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 241</span>         		Context.MODE_PRIVATE);
+<span class="lineno"> 242</span>         Editor e = sp.edit();
+<span class="lineno"> 243</span>         e.remove(KEY_PASSCODE);
+<span class="lineno"> 244</span>         <span class="errorspan">e.commit();</span>
+<span class="lineno"> 245</span>         timeoutMs = 0;
+<span class="lineno"> 246</span>         minPasscodeLength = MIN_PASSCODE_LENGTH;
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/security/PasscodeManager.java">../../src/com/salesforce/androidsdk/security/PasscodeManager.java</a>:265</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 262</span>         		+ account.getOrgLevelFilenameSuffix(), Context.MODE_PRIVATE);
+<span class="lineno"> 263</span>         final Editor e = sp.edit();
+<span class="lineno"> 264</span>         e.clear();
+<span class="lineno"> 265</span>         <span class="errorspan">e.commit();</span>
+<span class="lineno"> 266</span>     }
+<span class="lineno"> 267</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/security/PasscodeManager.java">../../src/com/salesforce/androidsdk/security/PasscodeManager.java</a>:325</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 322</span>         SharedPreferences sp = ctx.getSharedPreferences(PASSCODE_PREF_NAME, Context.MODE_PRIVATE);
+<span class="lineno"> 323</span>         Editor e = sp.edit();
+<span class="lineno"> 324</span>         e.putString(KEY_PASSCODE, hashForVerification(passcode));
+<span class="lineno"> 325</span>         <span class="errorspan">e.commit();</span>
+<span class="lineno"> 326</span>     }
+<span class="lineno"> 327</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/push/PushMessaging.java">../../src/com/salesforce/androidsdk/push/PushMessaging.java</a>:178</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 175</span>         final Editor editor = prefs.edit();
+<span class="lineno"> 176</span>         editor.putString(REGISTRATION_ID, registrationId);
+<span class="lineno"> 177</span>         editor.putLong(BACKOFF, DEFAULT_BACKOFF);
+<span class="lineno"> 178</span>         <span class="errorspan">editor.commit();</span>
+<span class="lineno"> 179</span>     }
+<span class="lineno"> 180</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/push/PushMessaging.java">../../src/com/salesforce/androidsdk/push/PushMessaging.java</a>:205</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 202</span>         		Context.MODE_PRIVATE);
+<span class="lineno"> 203</span>         final Editor editor = prefs.edit();
+<span class="lineno"> 204</span>         editor.remove(DEVICE_ID);
+<span class="lineno"> 205</span>         <span class="errorspan">editor.commit();</span>
+<span class="lineno"> 206</span>     }
+<span class="lineno"> 207</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/push/PushMessaging.java">../../src/com/salesforce/androidsdk/push/PushMessaging.java</a>:248</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 245</span>         		Context.MODE_PRIVATE);
+<span class="lineno"> 246</span>         final Editor editor = prefs.edit();
+<span class="lineno"> 247</span>         editor.putLong(LAST_SFDC_REGISTRATION_TIME, lastRegistrationTime);
+<span class="lineno"> 248</span>         <span class="errorspan">editor.commit();</span>
+<span class="lineno"> 249</span>     }
+<span class="lineno"> 250</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/push/PushMessaging.java">../../src/com/salesforce/androidsdk/push/PushMessaging.java</a>:265</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 262</span>         		Context.MODE_PRIVATE);
+<span class="lineno"> 263</span>         final Editor editor = prefs.edit();
+<span class="lineno"> 264</span>         editor.putBoolean(IN_PROGRESS, inProgress);
+<span class="lineno"> 265</span>         <span class="errorspan">editor.commit();</span>
+<span class="lineno"> 266</span>     }
+<span class="lineno"> 267</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/push/PushMessaging.java">../../src/com/salesforce/androidsdk/push/PushMessaging.java</a>:292</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 289</span>         		Context.MODE_PRIVATE);
+<span class="lineno"> 290</span>         final Editor editor = prefs.edit();
+<span class="lineno"> 291</span>         editor.clear();
+<span class="lineno"> 292</span>         <span class="errorspan">editor.commit();</span>
+<span class="lineno"> 293</span>     }
+<span class="lineno"> 294</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/push/PushMessaging.java">../../src/com/salesforce/androidsdk/push/PushMessaging.java</a>:320</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 317</span>         		Context.MODE_PRIVATE);
+<span class="lineno"> 318</span>         final Editor editor = prefs.edit();
+<span class="lineno"> 319</span>         editor.putLong(BACKOFF, backoff);
+<span class="lineno"> 320</span>         <span class="errorspan">editor.commit();</span>
+<span class="lineno"> 321</span>     }
+<span class="lineno"> 322</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/push/PushMessaging.java">../../src/com/salesforce/androidsdk/push/PushMessaging.java</a>:341</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 338</span>         editor.putLong(BACKOFF, DEFAULT_BACKOFF);
+<span class="lineno"> 339</span>         editor.putLong(LAST_SFDC_REGISTRATION_TIME, System.currentTimeMillis());
+<span class="lineno"> 340</span>         editor.putBoolean(IN_PROGRESS, false);
+<span class="lineno"> 341</span>         <span class="errorspan">editor.commit();</span>
+<span class="lineno"> 342</span>     }
+<span class="lineno"> 343</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/ui/sfhybrid/SalesforceWebViewClientHelper.java">../../src/com/salesforce/androidsdk/ui/sfhybrid/SalesforceWebViewClientHelper.java</a>:99</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno">  96</span>             SharedPreferences sp = ctx.getSharedPreferences(SFDC_WEB_VIEW_CLIENT_SETTINGS, Context.MODE_PRIVATE);
+<span class="lineno">  97</span>             Editor e = sp.edit();
+<span class="lineno">  98</span>             e.putString(APP_HOME_URL_PROP_KEY, url);
+<span class="lineno">  99</span>             <span class="errorspan">e.commit();</span>
+<span class="lineno"> 100</span> 
+<span class="lineno"> 101</span>             EventsObservable.get().notifyEvent(EventType.GapWebViewPageFinished, url);
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/app/UUIDManager.java">../../src/com/salesforce/androidsdk/app/UUIDManager.java</a>:63</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno">  60</span>             String uuid = UUID.randomUUID().toString();
+<span class="lineno">  61</span>             Editor e = sp.edit();
+<span class="lineno">  62</span>             e.putString(name, Encryptor.encrypt(uuid, key));
+<span class="lineno">  63</span>             <span class="errorspan">e.commit();</span>
+<span class="lineno">  64</span>         }
+<span class="lineno">  65</span>         cached = Encryptor.decrypt(sp.getString(name, null), key);
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/app/UUIDManager.java">../../src/com/salesforce/androidsdk/app/UUIDManager.java</a>:78</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno">  75</span>         uuids.clear();
+<span class="lineno">  76</span>         final SharedPreferences sp = SalesforceSDKManager.getInstance().getAppContext().getSharedPreferences(UUID_PREF, Context.MODE_PRIVATE);
+<span class="lineno">  77</span>         if (sp != null) {
+<span class="lineno">  78</span>             <span class="errorspan">sp.edit().clear().commit();</span>
+<span class="lineno">  79</span>         }
+<span class="lineno">  80</span>     }   
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/app/UpgradeManager.java">../../src/com/salesforce/androidsdk/app/UpgradeManager.java</a>:123</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 120</span>      */
+<span class="lineno"> 121</span>     protected synchronized void writeCurVersion(String key, String value) {
+<span class="lineno"> 122</span>         final SharedPreferences sp = SalesforceSDKManager.getInstance().getAppContext().getSharedPreferences(VERSION_SHARED_PREF, Context.MODE_PRIVATE);
+<span class="lineno"> 123</span>         <span class="errorspan">sp.edit().putString(key, value).commit();</span>
+<span class="lineno"> 124</span>     }
+<span class="lineno"> 125</span> 
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/app/UpgradeManager.java">../../src/com/salesforce/androidsdk/app/UpgradeManager.java</a>:191</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 188</span>         			Context.MODE_PRIVATE);
+<span class="lineno"> 189</span>     		final Editor edit = settings.edit();
+<span class="lineno"> 190</span>     		edit.clear();
+<span class="lineno"> 191</span>     		<span class="errorspan">edit.commit();</span>
+<span class="lineno"> 192</span> 
+<span class="lineno"> 193</span>     		/*
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/app/UpgradeManager.java">../../src/com/salesforce/androidsdk/app/UpgradeManager.java</a>:211</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 208</span>     			Context.MODE_PRIVATE);
+<span class="lineno"> 209</span> 		final Editor edit = settings.edit();
+<span class="lineno"> 210</span> 		edit.clear();
+<span class="lineno"> 211</span> 		<span class="errorspan">edit.commit();</span>
+<span class="lineno"> 212</span>     }
+<span class="lineno"> 213</span> }
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/accounts/UserAccountManager.java">../../src/com/salesforce/androidsdk/accounts/UserAccountManager.java</a>:112</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 109</span>         final Editor e = sp.edit();
+<span class="lineno"> 110</span>         e.putString(USER_ID_KEY, userId);
+<span class="lineno"> 111</span>         e.putString(ORG_ID_KEY, orgId);
+<span class="lineno"> 112</span>         <span class="errorspan">e.commit();</span>
+<span class="lineno"> 113</span> 	}
+<span class="lineno"> 114</span> 
+</pre>
+</div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing <code>commit()</code> on <code>SharedPreference</code> editor.</div>
+<div class="explanation">
+After calling <code>edit()</code> on a <code>SharedPreference</code>, you must call <code>commit()</code> or <code>apply()</code> on the editor to save the results.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "CommitPrefEdits" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="DefaultLocale"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">DefaultLocale: Implied default locale in case conversion</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../../../external/cordova/framework/src/org/apache/cordova/CordovaActivity.java">../../../../external/cordova/framework/src/org/apache/cordova/CordovaActivity.java</a>:506</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>toLowerCase(Locale)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 503</span>     @Deprecated
+<span class="lineno"> 504</span>     public void setBooleanProperty(String name, boolean value) {
+<span class="lineno"> 505</span>         Log.d(TAG, "Setting boolean properties in CordovaActivity will be deprecated in 3.0 on July 2013, please use config.xml");
+<span class="lineno"> 506</span>         this.getIntent().putExtra(name.<span class="errorspan">toLowerCase(), value);</span>
+<span class="lineno"> 507</span>     }
+<span class="lineno"> 508</span> 
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/org/apache/cordova/CordovaActivity.java">../../../../external/cordova/framework/src/org/apache/cordova/CordovaActivity.java</a>:521</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>toLowerCase(Locale)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 518</span>     @Deprecated
+<span class="lineno"> 519</span>     public void setIntegerProperty(String name, int value) {
+<span class="lineno"> 520</span>         Log.d(TAG, "Setting integer properties in CordovaActivity will be deprecated in 3.0 on July 2013, please use config.xml");
+<span class="lineno"> 521</span>         this.getIntent().putExtra(name.<span class="errorspan">toLowerCase(), value);</span>
+<span class="lineno"> 522</span>     }
+<span class="lineno"> 523</span> 
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/org/apache/cordova/CordovaActivity.java">../../../../external/cordova/framework/src/org/apache/cordova/CordovaActivity.java</a>:536</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>toLowerCase(Locale)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 533</span>     @Deprecated
+<span class="lineno"> 534</span>     public void setStringProperty(String name, String value) {
+<span class="lineno"> 535</span>         Log.d(TAG, "Setting string properties in CordovaActivity will be deprecated in 3.0 on July 2013, please use config.xml");
+<span class="lineno"> 536</span>         this.getIntent().putExtra(name.<span class="errorspan">toLowerCase(), value);</span>
+<span class="lineno"> 537</span>     }
+<span class="lineno"> 538</span> 
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/org/apache/cordova/CordovaActivity.java">../../../../external/cordova/framework/src/org/apache/cordova/CordovaActivity.java</a>:551</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>toLowerCase(Locale)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 548</span>     @Deprecated
+<span class="lineno"> 549</span>     public void setDoubleProperty(String name, double value) {
+<span class="lineno"> 550</span>         Log.d(TAG, "Setting double properties in CordovaActivity will be deprecated in 3.0 on July 2013, please use config.xml");
+<span class="lineno"> 551</span>         this.getIntent().putExtra(name.<span class="errorspan">toLowerCase(), value);</span>
+<span class="lineno"> 552</span>     }
+<span class="lineno"> 553</span> 
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Implied default locale in case conversion.</div>
+<div class="explanation">
+Calling <code>String#toLowerCase()</code> or <code>#toUpperCase()</code> <b>without specifying an explicit locale</b> is a common source of bugs. The reason for that is that those methods will use the current locale on the user's device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for <code>i</code> is <b>not</b> <code>I</code>.<br/>
+<br/>
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call <code>String#toUpperCase(Locale.US)</code> instead. If you really want to use the current locale, call <code>String#toUpperCase(Locale.getDefault())</code> instead.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/java/util/Locale.html#default_locale">http://developer.android.com/reference/java/util/Locale.html#default_locale</a>
+</div><br/>To suppress this error, use the issue id "DefaultLocale" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="GradleDeprecated"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">GradleDeprecated: Deprecated Gradle Construct</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:2</span>: <span class="message">'android-library' is deprecated; use 'com.android.library' instead</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> 
+<span class="lineno">   2</span> <span class="errorspan">apply plugin: 'android-library'</span>
+<span class="lineno">   3</span> 
+<span class="lineno">   4</span> dependencies {
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Deprecated Gradle Construct.</div>
+<div class="explanation">
+This detector looks for deprecated Gradle constructs which currently work but will likely stop working in a future update.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "GradleDeprecated" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="OldTargetApi"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">OldTargetApi: Target SDK attribute is not targeting latest version</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../AndroidManifest.xml">../../AndroidManifest.xml</a>:9</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the <code>android.os.Build.VERSION_CODES</code> javadoc for details.</span><br /><pre class="errorlines">
+<span class="lineno">   6</span> 	android:versionName="3.3.0.unstable">
+<span class="lineno">   7</span> 
+<span class="lineno">   8</span>     &lt;uses-sdk android:minSdkVersion="17"
+<span class="lineno">   9</span>         <span class="errorspan">android:targetSdkVersion="21" /></span>
+<span class="lineno">  10</span> 
+<span class="lineno">  11</span>     &lt;application>
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Target SDK attribute is not targeting latest version.</div>
+<div class="explanation">
+When your application runs on a version of Android that is more recent than your <code>targetSdkVersion</code> specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the <code>targetSdkVersion</code> is less than 14, your app may get an option button in the UI.<br/>
+<br/>
+To fix this issue, set the <code>targetSdkVersion</code> to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a>
+</div><br/>To suppress this error, use the issue id "OldTargetApi" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="ManifestOrder"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ManifestOrder: Incorrect order of elements in manifest</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../AndroidManifest.xml">../../AndroidManifest.xml</a>:72</span>: <span class="message"><code>&lt;uses-permission></code> tag appears after <code>&lt;application></code> tag</span><br /><pre class="errorlines">
+<span class="lineno">  69</span>             android:exported="false" />
+<span class="lineno">  70</span>     &lt;/application>
+<span class="lineno">  71</span> 
+<span class="lineno">  72</span>     <span class="errorspan">&lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /></span>
+<span class="lineno">  73</span>     &lt;uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+<span class="lineno">  74</span>     &lt;uses-permission android:name="android.permission.GET_ACCOUNTS" />
+</pre>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Incorrect order of elements in manifest.</div>
+<div class="explanation">
+The &lt;application> tag should appear after the elements which declare which version you need, which features you need, which libraries you need, and so on. In the past there have been subtle bugs (such as themes not getting applied correctly) when the <code>&lt;application></code> tag appears before some of these other elements, so it's best to order your manifest in the logical dependency order.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ManifestOrder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Security"></a>
+<div class="category"><a href="#" title="Return to top">Security</a><div class="categorySeparator"></div>
+</div>
+<a name="SetJavaScriptEnabled"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">SetJavaScriptEnabled: Using <code>setJavaScriptEnabled</code></a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/com/salesforce/androidsdk/ui/LoginActivity.java">../../src/com/salesforce/androidsdk/ui/LoginActivity.java</a>:97</span>: <span class="message">Using <code>setJavaScriptEnabled</code> can introduce XSS vulnerabilities into you application, review carefully.</span><br /><pre class="errorlines">
+<span class="lineno">  94</span> 		// Setup the WebView.
+<span class="lineno">  95</span> 		final WebView webView = (WebView) findViewById(salesforceR.idLoginWebView());
+<span class="lineno">  96</span> 		final WebSettings webSettings = webView.getSettings();
+<span class="lineno">  97</span> 		<span class="errorspan">webSettings.setJavaScriptEnabled(true);</span>
+<span class="lineno">  98</span> 		webSettings.setAllowFileAccessFromFileURLs(true);
+<span class="lineno">  99</span> 		webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/ui/OAuthWebviewHelper.java">../../src/com/salesforce/androidsdk/ui/OAuthWebviewHelper.java</a>:137</span>: <span class="message">Using <code>setJavaScriptEnabled</code> can introduce XSS vulnerabilities into you application, review carefully.</span><br /><pre class="errorlines">
+<span class="lineno"> 134</span>         this.callback = callback;
+<span class="lineno"> 135</span>         this.loginOptions = options;
+<span class="lineno"> 136</span>         this.webview = webview;
+<span class="lineno"> 137</span>         <span class="errorspan">webview.getSettings().setJavaScriptEnabled(true);</span>
+<span class="lineno"> 138</span>         webview.setWebViewClient(makeWebViewClient());
+<span class="lineno"> 139</span>         webview.setWebChromeClient(makeWebChromeClient());
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using <code>setJavaScriptEnabled</code></div>
+<div class="explanation">
+Your code should not invoke <code>setJavaScriptEnabled</code> if you are not sure that your app really requires JavaScript support.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/security.html">http://developer.android.com/guide/practices/security.html</a>
+</div><br/>To suppress this error, use the issue id "SetJavaScriptEnabled" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="ExportedService"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ExportedService: Exported service does not require permission</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../AndroidManifest.xml">../../AndroidManifest.xml</a>:14</span>: <span class="message">Exported service does not require permission</span><br /><pre class="errorlines">
+<span class="lineno">  11</span>     &lt;application>
+<span class="lineno">  12</span> 
+<span class="lineno">  13</span>         &lt;!-- Service required for authentication -->
+<span class="lineno">  14</span>         <span class="errorspan">&lt;service android:exported="true"</span>
+<span class="lineno">  15</span>             android:name="com.salesforce.androidsdk.auth.AuthenticatorService">
+<span class="lineno">  16</span>             &lt;intent-filter>
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 5 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Exported service does not require permission.</div>
+<div class="explanation">
+Exported services (services which either set <code>exported=true</code> or contain an intent-filter and do not specify <code>exported=false</code>) should define a permission that an entity must have in order to launch the service or bind to it. Without this, any application can use this service.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ExportedService" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Performance"></a>
+<div class="category"><a href="#" title="Return to top">Performance</a><div class="categorySeparator"></div>
+</div>
+<a name="UseSparseArrays"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UseSparseArrays: HashMap can be replaced with SparseArray</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyConnection.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyConnection.java</a>:76</span>: <span class="message">Use <code>new SparseArray&lt;SpdyStream>(...)</code> instead for better performance</span><br /><pre class="errorlines">
+<span class="lineno">  73</span>   private final FrameReader frameReader;
+<span class="lineno">  74</span>   private final FrameWriter frameWriter;
+<span class="lineno">  75</span> 
+<span class="lineno">  76</span>   private final Map&lt;Integer, SpdyStream> streams = <span class="errorspan">new HashMap&lt;Integer, SpdyStream>();</span>
+<span class="lineno">  77</span>   private final String hostName;
+<span class="lineno">  78</span>   private int lastGoodStreamId;
+</pre>
+<span class="location"><a href="../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyConnection.java">../../../../external/cordova/framework/src/com/squareup/okhttp/internal/spdy/SpdyConnection.java</a>:234</span>: <span class="message">Use <code>new SparseArray&lt;Ping>(...)</code> instead for better performance</span><br /><pre class="errorlines">
+<span class="lineno"> 231</span>       }
+<span class="lineno"> 232</span>       pingId = nextPingId;
+<span class="lineno"> 233</span>       nextPingId += 2;
+<span class="lineno"> 234</span>       if (pings == null) pings = <span class="errorspan">new HashMap&lt;Integer, Ping>();</span>
+<span class="lineno"> 235</span>       pings.put(pingId, ping);
+<span class="lineno"> 236</span>     }
+</pre>
+</div>
+<div class="metadata">Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: HashMap can be replaced with SparseArray.</div>
+<div class="explanation">
+For maps where the keys are of type integer, it's typically more efficient to use the Android <code>SparseArray</code> API. This check identifies scenarios where you might want to consider using <code>SparseArray</code> instead of <code>HashMap</code> for better performance.<br/>
+<br/>
+This is <b>particularly</b> useful when the value types are primitives like ints, where you can use <code>SparseIntArray</code> and avoid auto-boxing the values from <code>int</code> to <code>Integer</code>.<br/>
+<br/>
+If you need to construct a <code>HashMap</code> because you need to call an API outside of your control which requires a <code>Map</code>, you can suppress this warning using for example the <code>@SuppressLint</code> annotation.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UseSparseArrays" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="Overdraw"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">Overdraw: Overdraw: Painting regions more than once</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/sf__account_switcher.xml">../../res/layout/sf__account_switcher.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/darker_gray</code> with a theme that also paints a background (inferred theme is <code>@android:style/Theme.Holo</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span> &lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+<span class="lineno">   5</span>     android:layout_height="match_parent"
+<span class="lineno">   6</span>     <span class="errorspan">android:background="@android:color/darker_gray"</span>
+<span class="lineno">   7</span>     android:orientation="vertical">
+<span class="lineno">   8</span> 
+</pre>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Overdraw: Painting regions more than once.</div>
+<div class="explanation">
+If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called "overdraw".<br/>
+<br/>
+NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it's currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.<br/>
+<br/>
+If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.<br/>
+<br/>
+Of course it's possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead.<br/>
+
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "Overdraw" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedResources"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UnusedResources: Unused resources</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/xml/config.xml">../../res/xml/config.xml</a></span>: <span class="message">The resource <code>R.xml.config</code> appears to be unused</span><br />
+<span class="location"><a href="../../res/xml/servers.xml">../../res/xml/servers.xml</a></span>: <span class="message">The resource <code>R.xml.servers</code> appears to be unused</span><br />
+<span class="location"><a href="../../res/values/sf__dimens.xml">../../res/values/sf__dimens.xml</a>:11</span>: <span class="message">The resource <code>R.dimen.sf__server_button_margin</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     &lt;dimen name="sf__server_picker_margin_left">3dp&lt;/dimen>
+<span class="lineno">   9</span>     &lt;dimen name="sf__server_picker_margin_right">3dp&lt;/dimen>
+<span class="lineno">  10</span>     &lt;dimen name="sf__server_picker_margin_bottom">3dp&lt;/dimen>
+<span class="lineno">  11</span>     &lt;dimen <span class="errorspan">name="sf__server_button_margin">2dp&lt;/dimen></span>
+<span class="lineno">  12</span> 
+<span class="lineno">  13</span>     &lt;!-- Dimensions used in sf__passcode.xml -->
+</pre>
+<span class="location"><a href="../../res/drawable-xlarge/sf__header_drop_shadow.xml">../../res/drawable-xlarge/sf__header_drop_shadow.xml</a></span>: <span class="message">The resource <code>R.drawable.sf__header_drop_shadow</code> appears to be unused</span><br />
+<span class="location"><a href="../../res/drawable-xlarge/sf__header_left_border.xml">../../res/drawable-xlarge/sf__header_left_border.xml</a></span>: <span class="message">The resource <code>R.drawable.sf__header_left_border</code> appears to be unused</span><br />
+<button id="UnusedResourcesDivLink" onclick="reveal('UnusedResourcesDiv');" />+ 10 More Occurrences...</button>
+<div id="UnusedResourcesDiv" style="display: none">
+<span class="location"><a href="../../res/drawable-xlarge/sf__header_refresh_states.xml">../../res/drawable-xlarge/sf__header_refresh_states.xml</a></span>: <span class="message">The resource <code>R.drawable.sf__header_refresh_states</code> appears to be unused</span><br />
+<span class="location"><a href="../../res/drawable-xlarge/sf__header_right_border.xml">../../res/drawable-xlarge/sf__header_right_border.xml</a></span>: <span class="message">The resource <code>R.drawable.sf__header_right_border</code> appears to be unused</span><br />
+<span class="location"><a href="../../res/drawable-xlarge/sf__login_content_header.xml">../../res/drawable-xlarge/sf__login_content_header.xml</a></span>: <span class="message">The resource <code>R.drawable.sf__login_content_header</code> appears to be unused</span><br />
+<span class="location"><a href="../../res/drawable-xlarge/sf__oauth_background.png">../../res/drawable-xlarge/sf__oauth_background.png</a></span>: <span class="message">The resource <code>R.drawable.sf__oauth_background</code> appears to be unused</span><br />
+<ul></ul><button id="Location9DivLink" onclick="reveal('Location9Div');" />+ 1 Additional Locations...</button>
+<div id="Location9Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-xlarge-port/sf__oauth_background.png">../../res/drawable-xlarge-port/sf__oauth_background.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xlarge/sf__oauth_background.png"><img border="0" align="top" src="../../res/drawable-xlarge/sf__oauth_background.png" /></a>
+</td><td><a href="../../res/drawable-xlarge-port/sf__oauth_background.png"><img border="0" align="top" src="../../res/drawable-xlarge-port/sf__oauth_background.png" /></a>
+</td></tr><tr><th>xlarge</th><th>xlarge-port</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xlarge/sf__oauth_container_dropshadow.9.png">../../res/drawable-xlarge/sf__oauth_container_dropshadow.9.png</a></span>: <img class="embedimage" align="right" src="../../res/drawable-xlarge/sf__oauth_container_dropshadow.9.png" /><span class="message">The resource <code>R.drawable.sf__oauth_container_dropshadow</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../res/drawable/sf__progress_spinner.xml">../../res/drawable/sf__progress_spinner.xml</a></span>: <span class="message">The resource <code>R.drawable.sf__progress_spinner</code> appears to be unused</span><br />
+<ul></ul><button id="Location11DivLink" onclick="reveal('Location11Div');" />+ 1 Additional Locations...</button>
+<div id="Location11Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-xlarge/sf__progress_spinner.xml">../../res/drawable-xlarge/sf__progress_spinner.xml</a></span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../res/values/sf__strings.xml">../../res/values/sf__strings.xml</a>:20</span>: <span class="message">The resource <code>R.string.sf__login_title</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  17</span>     &lt;string name="sf__ssl_unknown_error">Unknown Error&lt;/string>
+<span class="lineno">  18</span> 
+<span class="lineno">  19</span> 	&lt;!-- Login -->
+<span class="lineno">  20</span> 	&lt;string <span class="errorspan">name="sf__login_title">Login&lt;/string></span>
+<span class="lineno">  21</span> 	&lt;string name="sf__pick_server">Change Server&lt;/string>
+<span class="lineno">  22</span> 	&lt;string name="sf__clear_cookies">Clear Cookies&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/sf__strings.xml">../../res/values/sf__strings.xml</a>:26</span>: <span class="message">The resource <code>R.string.sf__server_picker_title</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  23</span> 	&lt;string name="sf__reload">Reload&lt;/string>
+<span class="lineno">  24</span> 
+<span class="lineno">  25</span> 	&lt;!-- Server picker -->
+<span class="lineno">  26</span> 	&lt;string <span class="errorspan">name="sf__server_picker_title">Pick Login Server&lt;/string></span>
+<span class="lineno">  27</span> 	&lt;string name="sf__auth_login_production">Production&lt;/string>
+<span class="lineno">  28</span> 	&lt;string name="sf__auth_login_sandbox">Sandbox&lt;/string>
+</pre>
+<span class="location"><a href="../../res/drawable/sf__toolbar_background.xml">../../res/drawable/sf__toolbar_background.xml</a></span>: <span class="message">The resource <code>R.drawable.sf__toolbar_background</code> appears to be unused</span><br />
+<ul></ul><button id="Location14DivLink" onclick="reveal('Location14Div');" />+ 1 Additional Locations...</button>
+<div id="Location14Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-xlarge/sf__toolbar_background.xml">../../res/drawable-xlarge/sf__toolbar_background.xml</a></span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:15</span>: <span class="message">The resource <code>R.string.api_version</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  12</span>    	&lt;string name="oauth_display_type">touch&lt;/string>
+<span class="lineno">  13</span> 
+<span class="lineno">  14</span>    	&lt;!-- Default API version used by the SDK and sample apps -->
+<span class="lineno">  15</span>    	&lt;string <span class="errorspan">name="api_version">v33.0&lt;/string></span>
+<span class="lineno">  16</span> &lt;/resources>
+<span class="lineno">  17</span> 
+</pre>
+</div>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused resources.</div>
+<div class="explanation">
+Unused resources make applications larger and slow down builds.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UselessParent"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UselessParent: Useless parent layout</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/sf__passcode.xml">../../res/layout/sf__passcode.xml</a>:11</span>: <span class="message">This <code>LinearLayout</code> layout or its <code>RelativeLayout</code> parent is useless</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     android:orientation="vertical"
+<span class="lineno">   9</span>     tools:context=".ui.PasscodeActivity">
+<span class="lineno">  10</span> 
+<span class="lineno">  11</span>     <span class="errorspan">&lt;LinearLayout style="@style/SalesforceSDK.Passcode.Box"</span>
+<span class="lineno">  12</span>         android:orientation="vertical">
+<span class="lineno">  13</span> 
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 2 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Useless parent layout.</div>
+<div class="explanation">
+A layout with children that has no siblings, is not a scrollview or a root layout, and does not have a background, can be removed and have its children moved directly into the parent for a flatter and more efficient layout hierarchy.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UselessParent" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability:Icons"></a>
+<div class="category"><a href="#" title="Return to top">Usability:Icons</a><div class="categorySeparator"></div>
+</div>
+<a name="IconDipSize"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDipSize: Icon density-independent size validation</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable-mdpi/sf__icon.png">../../res/drawable-mdpi/sf__icon.png</a></span>: <span class="message">The image <code>sf__icon.png</code> varies significantly in its density-independent (dip) size across the various density versions: drawable-xxhdpi/sf__icon.png: 64x64 dp (192x192 px), drawable-ldpi/sf__icon.png: 48x48 dp (36x36 px), drawable-hdpi/sf__icon.png: 48x48 dp (72x72 px), drawable-xhdpi/sf__icon.png: 48x48 dp (96x96 px), drawable-mdpi/sf__icon.png: 48x48 dp (48x48 px)</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 4 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/sf__icon.png">../../res/drawable-xhdpi/sf__icon.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-hdpi/sf__icon.png">../../res/drawable-hdpi/sf__icon.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-ldpi/sf__icon.png">../../res/drawable-ldpi/sf__icon.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xxhdpi/sf__icon.png">../../res/drawable-xxhdpi/sf__icon.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/sf__icon.png"><img border="0" align="top" src="../../res/drawable-xhdpi/sf__icon.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/sf__icon.png"><img border="0" align="top" src="../../res/drawable-hdpi/sf__icon.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/sf__icon.png"><img border="0" align="top" src="../../res/drawable-mdpi/sf__icon.png" /></a>
+</td><td><a href="../../res/drawable-ldpi/sf__icon.png"><img border="0" align="top" src="../../res/drawable-ldpi/sf__icon.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/sf__icon.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/sf__icon.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th><th>ldpi</th><th>xxhdpi</th></tr>
+</table>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon density-independent size validation.</div>
+<div class="explanation">
+Checks the all icons which are provided in multiple densities, all compute to roughly the same density-independent pixel (<code>dip</code>) size. This catches errors where images are either placed in the wrong folder, or icons are changed to new sizes but some folders are forgotten.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "IconDipSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconDuplicatesConfig"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDuplicatesConfig: Identical bitmaps across various configurations</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable/sf__header_bg.png">../../res/drawable/sf__header_bg.png</a></span>: <span class="message">The <code>sf__header_bg.png</code> icon has identical contents in the following configuration folders: drawable-xlarge, drawable</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 1 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-xlarge/sf__header_bg.png">../../res/drawable-xlarge/sf__header_bg.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable/sf__header_bg.png"><img border="0" align="top" src="../../res/drawable/sf__header_bg.png" /></a>
+</td><td><a href="../../res/drawable-xlarge/sf__header_bg.png"><img border="0" align="top" src="../../res/drawable-xlarge/sf__header_bg.png" /></a>
+</td></tr><tr><th></th><th>xlarge</th></tr>
+</table>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Identical bitmaps across various configurations.</div>
+<div class="explanation">
+If an icon is provided under different configuration parameters such as <code>drawable-hdpi</code> or <code>-v11</code>, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "IconDuplicatesConfig" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconLocation"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconLocation: Image defined in density-independent drawable folder</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable/sf__header_bg.png">../../res/drawable/sf__header_bg.png</a></span>: <img class="embedimage" align="right" src="../../res/drawable/sf__header_bg.png" /><span class="message">Found bitmap drawable <code>res/drawable/sf__header_bg.png</code> in densityless folder</span><br clear="right"/>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Image defined in density-independent drawable folder.</div>
+<div class="explanation">
+The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to <code>drawable-mdpi</code> and consider providing higher and lower resolution versions in <code>drawable-ldpi</code>, <code>drawable-hdpi</code> and <code>drawable-xhdpi</code>. If the icon <b>really</b> is density independent (for example a solid color) you can place it in <code>drawable-nodpi</code>.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconLocation" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconDensities"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDensities: Icon densities validation</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable-hdpi">../../res/drawable-hdpi</a></span>: <span class="message">Missing the following drawables in <code>drawable-hdpi</code>: sf__ic_refresh_sync_anim0.png (found in drawable-mdpi)</span><br />
+<span class="location"><a href="../../res/drawable-xhdpi">../../res/drawable-xhdpi</a></span>: <span class="message">Missing the following drawables in <code>drawable-xhdpi</code>: sf__edit_icon.png, sf__highlight_glare.png, sf__ic_refresh_sync_anim0.png</span><br />
+<span class="location"><a href="../../res/drawable-xxhdpi">../../res/drawable-xxhdpi</a></span>: <span class="message">Missing the following drawables in <code>drawable-xxhdpi</code>: sf__edit_icon.png, sf__highlight_glare.png, sf__ic_refresh_sync_anim0.png</span><br />
+</div>
+<div class="metadata">Priority: 4 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon densities validation.</div>
+<div class="explanation">
+Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.<br/>
+<br/>
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable <code>ANDROID_LINT_INCLUDE_LDPI=true</code>. For more information on current density usage, see <a href="http://developer.android.com/resources/dashboard/screens.html">http://developer.android.com/resources/dashboard/screens.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconDensities" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconMissingDensityFolder"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconMissingDensityFolder: Missing density folder</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res">../../res</a></span>: <span class="message">Missing density variation folders in <code>res</code>: drawable-xxxhdpi</span><br />
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing density folder.</div>
+<div class="explanation">
+Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as <code>drawable-hdpi</code>.<br/>
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable <code>ANDROID_LINT_INCLUDE_LDPI=true</code>. For more information on current density usage, see <a href="http://developer.android.com/resources/dashboard/screens.html">http://developer.android.com/resources/dashboard/screens.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconMissingDensityFolder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability"></a>
+<div class="category"><a href="#" title="Return to top">Usability</a><div class="categorySeparator"></div>
+</div>
+<a name="ButtonOrder"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ButtonOrder: Button order</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/sf__custom_server_url.xml">../../res/layout/sf__custom_server_url.xml</a>:31</span>: <span class="message">Cancel button should be on the left (was "Apply | Cancel", should be "Cancel | Apply")</span><br /><pre class="errorlines">
+<span class="lineno">  28</span> 		    android:text="@string/sf__server_url_default_apply"
+<span class="lineno">  29</span> 		    style="@style/SalesforceSDK.ServerPicker.Button.OkCancel" />
+<span class="lineno">  30</span> 
+<span class="lineno">  31</span> 		<span class="errorspan">&lt;Button android:id="@+id/sf__cancel_button"</span>
+<span class="lineno">  32</span> 		    android:text="@string/sf__server_url_default_cancel"
+<span class="lineno">  33</span> 		    style="@style/SalesforceSDK.ServerPicker.Button.OkCancel" />
+</pre>
+<span class="location"><a href="../../res/layout/sf__server_picker_list.xml">../../res/layout/sf__server_picker_list.xml</a>:24</span>: <span class="message">Cancel button should be on the left (was "Apply | Cancel", should be "Cancel | Apply")</span><br /><pre class="errorlines">
+<span class="lineno">  21</span> 		    style="@style/SalesforceSDK.ServerPicker.Button.OkCancel"
+<span class="lineno">  22</span> 			android:onClick="setPositiveReturnValue" />
+<span class="lineno">  23</span> 
+<span class="lineno">  24</span> 		<span class="errorspan">&lt;Button android:id="@+id/sf__cancel_button"</span>
+<span class="lineno">  25</span> 		    android:text="@string/sf__server_url_default_cancel"
+<span class="lineno">  26</span> 		    style="@style/SalesforceSDK.ServerPicker.Button.OkCancel"
+</pre>
+</div>
+<div class="metadata">Priority: 8 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Button order.</div>
+<div class="explanation">
+According to the Android Design Guide,<br/>
+<br/>
+"Action buttons are typically Cancel and/or OK, with OK indicating the preferred or most likely action. However, if the options consist of specific actions such as Close or Wait rather than a confirmation or cancellation of the action described in the content, then all the buttons should be active verbs. As a rule, the dismissive action of a dialog is always on the left whereas the affirmative actions are on the right."<br/>
+<br/>
+This check looks for button bars and buttons which look like cancel buttons, and makes sure that these are on the left.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/building-blocks/dialogs.html">http://developer.android.com/design/building-blocks/dialogs.html</a>
+</div><br/>To suppress this error, use the issue id "ButtonOrder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="ViewConstructor"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ViewConstructor: Missing View constructors for XML inflation</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../../../external/cordova/framework/src/org/apache/cordova/LinearLayoutSoftKeyboardDetect.java">../../../../external/cordova/framework/src/org/apache/cordova/LinearLayoutSoftKeyboardDetect.java</a>:30</span>: <span class="message">Custom view <code>LinearLayoutSoftKeyboardDetect</code> is missing constructor used by tools: <code>(Context)</code> or <code>(Context,AttributeSet)</code> or <code>(Context,AttributeSet,int)</code></span><br /><pre class="errorlines">
+<span class="lineno">  27</span> /**
+<span class="lineno">  28</span>  * This class is used to detect when the soft keyboard is shown and hidden in the web view.
+<span class="lineno">  29</span>  */
+<span class="lineno">  30</span> public class <span class="errorspan">LinearLayoutSoftKeyboardDetect extends LinearLayout {</span>
+<span class="lineno">  31</span> 
+<span class="lineno">  32</span>     private static final String TAG = "SoftKeyboardDetect";
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/ui/SalesforceAccountRadioButton.java">../../src/com/salesforce/androidsdk/ui/SalesforceAccountRadioButton.java</a>:45</span>: <span class="message">Custom view <code>SalesforceAccountRadioButton</code> is missing constructor used by tools: <code>(Context)</code> or <code>(Context,AttributeSet)</code> or <code>(Context,AttributeSet,int)</code></span><br /><pre class="errorlines">
+<span class="lineno">  42</span>  *
+<span class="lineno">  43</span>  * @author bhariharan
+<span class="lineno">  44</span>  */
+<span class="lineno">  45</span> public class <span class="errorspan">SalesforceAccountRadioButton extends RadioButton {</span>
+<span class="lineno">  46</span> 
+<span class="lineno">  47</span> 	private Context context;
+</pre>
+<span class="location"><a href="../../src/com/salesforce/androidsdk/ui/SalesforceServerRadioButton.java">../../src/com/salesforce/androidsdk/ui/SalesforceServerRadioButton.java</a>:43</span>: <span class="message">Custom view <code>SalesforceServerRadioButton</code> is missing constructor used by tools: <code>(Context)</code> or <code>(Context,AttributeSet)</code> or <code>(Context,AttributeSet,int)</code></span><br /><pre class="errorlines">
+<span class="lineno">  40</span>  *
+<span class="lineno">  41</span>  * @author bhariharan
+<span class="lineno">  42</span>  */
+<span class="lineno">  43</span> public class <span class="errorspan">SalesforceServerRadioButton extends RadioButton {</span>
+<span class="lineno">  44</span> 
+<span class="lineno">  45</span> 	private Context context;
+</pre>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing View constructors for XML inflation.</div>
+<div class="explanation">
+Some layout tools (such as the Android layout editor for Studio &amp; Eclipse) needs to find a constructor with one of the following signatures:<br/>
+* <code>View(Context context)</code><br/>
+* <code>View(Context context, AttributeSet attrs)</code><br/>
+* <code>View(Context context, AttributeSet attrs, int defStyle)</code><br/>
+<br/>
+If your custom view needs to perform initialization which does not apply when used in a layout editor, you can surround the given code with a check to see if <code>View#isInEditMode()</code> is false, since that method will return <code>false</code> at runtime but true within a user interface editor.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ViewConstructor" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Accessibility"></a>
+<div class="category"><a href="#" title="Return to top">Accessibility</a><div class="categorySeparator"></div>
+</div>
+<a name="LabelFor"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">LabelFor: Missing <code>labelFor</code> attribute</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/sf__custom_server_url.xml">../../res/layout/sf__custom_server_url.xml</a>:17</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/sf__picker_custom_label"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno">  14</span> 	android:focusable="true"
+<span class="lineno">  15</span> 	android:focusableInTouchMode="true">
+<span class="lineno">  16</span> 
+<span class="lineno">  17</span> 	<span class="errorspan">&lt;EditText android:id="@+id/sf__picker_custom_label"</span>
+<span class="lineno">  18</span> 	    style="@style/SalesforceSDK.ServerPicker.EditText"
+<span class="lineno">  19</span> 		android:imeOptions="actionNext" />
+</pre>
+<span class="location"><a href="../../res/layout/sf__custom_server_url.xml">../../res/layout/sf__custom_server_url.xml</a>:21</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/sf__picker_custom_url"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno">  18</span> 	    style="@style/SalesforceSDK.ServerPicker.EditText"
+<span class="lineno">  19</span> 		android:imeOptions="actionNext" />
+<span class="lineno">  20</span> 
+<span class="lineno">  21</span> 	<span class="errorspan">&lt;EditText android:id="@+id/sf__picker_custom_url"</span>
+<span class="lineno">  22</span> 	    style="@style/SalesforceSDK.ServerPicker.EditText"
+<span class="lineno">  23</span> 		android:imeOptions="actionDone" />
+</pre>
+<span class="location"><a href="../../res/layout/sf__passcode.xml">../../res/layout/sf__passcode.xml</a>:17</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/sf__passcode_text"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno">  14</span>         &lt;TextView android:id="@+id/sf__passcode_title"
+<span class="lineno">  15</span>             style="@style/SalesforceSDK.Passcode.Text.Title" />
+<span class="lineno">  16</span> 
+<span class="lineno">  17</span>         <span class="errorspan">&lt;EditText android:id="@+id/sf__passcode_text"</span>
+<span class="lineno">  18</span>             style="@style/SalesforceSDK.Passcode.Text.Entry"
+<span class="lineno">  19</span>             android:inputType="textPassword" />
+</pre>
+</div>
+<div class="metadata">Priority: 2 / 10<br/>
+Category: Accessibility</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing <code>labelFor</code> attribute.</div>
+<div class="explanation">
+Text fields should be labelled with a <code>labelFor</code> attribute, provided your <code>minSdkVersion</code> is at least 17.<br/>
+<br/>
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "LabelFor" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="MissingIssues"></a>
+<div class="category">Disabled Checks<div class="categorySeparator"></div>
+</div>
+The following issues were not run by lint, either because the check is not enabled by default, or because it was disabled with a command line flag or via one or more lint.xml configuration files in the project directories.
+<br/><br/>
+<a name="BackButton"></a>
+<div class="issue">
+<div class="id">BackButton<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Back button.</div>
+<div class="explanation">
+According to the Android Design Guide,<br/>
+<br/>
+"Other platforms use an explicit back button with label to allow the user to navigate up the application's hierarchy. Instead, Android uses the main action bar's app icon for hierarchical navigation and the navigation bar's back button for temporal navigation."<br/>
+This check is not very sophisticated (it just looks for buttons with the label "Back"), so it is disabled by default to not trigger on common scenarios like pairs of Back/Next buttons to paginate through screens.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/patterns/pure-android.html">http://developer.android.com/design/patterns/pure-android.html</a>
+</div><br/>To suppress this error, use the issue id "BackButton" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="EasterEgg"></a>
+<div class="issue">
+<div class="id">EasterEgg<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains easter egg.</div>
+<div class="explanation">
+An "easter egg" is code deliberately hidden in the code, both from potential users and even from other developers. This lint check looks for code which looks like it may be hidden from sight.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "EasterEgg" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="FieldGetter"></a>
+<div class="issue">
+<div class="id">FieldGetter<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using getter instead of field.</div>
+<div class="explanation">
+Accessing a field within the class that defines a getter for that field is at least 3 times faster than calling the getter. For simple getters that do nothing other than return the field, you might want to just reference the local field directly instead.<br/>
+<br/>
+<b>NOTE</b>: As of Android 2.3 (Gingerbread), this optimization is performed automatically by Dalvik, so there is no need to change your code; this is only relevant if you are targeting older versions of Android.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/design/performance.html#internal_get_set">http://developer.android.com/guide/practices/design/performance.html#internal_get_set</a>
+</div><br/>To suppress this error, use the issue id "FieldGetter" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconExpectedSize"></a>
+<div class="issue">
+<div class="id">IconExpectedSize<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon has incorrect size.</div>
+<div class="explanation">
+There are predefined sizes (for each density) for launcher icons. You should follow these conventions to make sure your icons fit in with the overall look of the platform.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/style/iconography.html">http://developer.android.com/design/style/iconography.html</a>
+</div><br/>To suppress this error, use the issue id "IconExpectedSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NegativeMargin"></a>
+<div class="issue">
+<div class="id">NegativeMargin<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Negative Margins.</div>
+<div class="explanation">
+Margin values should be positive. Negative values are generally a sign that you are making assumptions about views surrounding the current one, or may be tempted to turn off child clipping to allow a view to escape its parent. Turning off child clipping to do this not only leads to poor graphical performance, it also results in wrong touch event handling since touch events are based strictly on a chain of parent-rect hit tests. Finally, making assumptions about the size of strings can lead to localization problems.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NegativeMargin" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NewerVersionAvailable"></a>
+<div class="issue">
+<div class="id">NewerVersionAvailable<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Newer Library Versions Available.</div>
+<div class="explanation">
+This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project.<br/>
+This is similar to the <code>GradleDependency</code> check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also <b>much</b> slower.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NewerVersionAvailable" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="SelectableText"></a>
+<div class="issue">
+<div class="id">SelectableText<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 7 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Dynamic text should probably be selectable.</div>
+<div class="explanation">
+If a <code>&lt;TextView></code> is used to display data, the user might want to copy that data and paste it elsewhere. To allow this, the <code>&lt;TextView></code> should specify <code>android:textIsSelectable="true"</code>.<br/>
+<br/>
+This lint check looks for TextViews which are likely to be displaying data: views whose text is set dynamically. This value will be ignored on platforms older than API 11, so it is okay to set it regardless of your <code>minSdkVersion</code>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "SelectableText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="StopShip"></a>
+<div class="issue">
+<div class="id">StopShip<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 10 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains <code>STOPSHIP</code> marker.</div>
+<div class="explanation">
+Using the comment <code>// STOPSHIP</code> can be used to flag code that is incomplete but checked in. This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "StopShip" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="TypographyQuotes"></a>
+<div class="issue">
+<div class="id">TypographyQuotes<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Typography</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Straight quotes can be replaced with curvy quotes.</div>
+<div class="explanation">
+Straight single quotes and double quotes, when used as a pair, can be replaced by "curvy quotes" (or directional quotes). This can make the text more readable.<br/>
+<br/>
+Note that you should never use grave accents and apostrophes to quote, `like this'.<br/>
+<br/>
+(Also note that you should not use curvy quotes for code fragments.)
+</div>
+<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Quotation_mark">http://en.wikipedia.org/wiki/Quotation_mark</a>
+</div><br/>To suppress this error, use the issue id "TypographyQuotes" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedIds"></a>
+<div class="issue">
+<div class="id">UnusedIds<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 1 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused id.</div>
+<div class="explanation">
+This resource id definition appears not to be needed since it is not referenced from anywhere. Having id definitions, even if unused, is not necessarily a bad idea since they make working on layouts and menus easier, so there is not a strong reason to delete these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="SuppressInfo"></a>
+<div class="category">Suppressing Warnings and Errors<div class="categorySeparator"></div>
+</div>
+Lint errors can be suppressed in a variety of ways:<br/>
+<br/>
+1. With a @SuppressLint annotation in the Java code<br/>
+2. With a tools:ignore attribute in the XML file<br/>
+3. With a lint.xml configuration file in the project<br/>
+4. With a lint.xml configuration file passed to lint via the --config flag<br/>
+5. With the --ignore flag passed to lint.<br/>
+<br/>
+To suppress a lint warning with an annotation, add a @SuppressLint("id") annotation on the class, method or variable declaration closest to the warning instance you want to disable. The id can be one or more issue id's, such as "UnusedResources" or {"UnusedResources","UnusedIds"}, or it can be "all" to suppress all lint warnings in the given scope.<br/>
+<br/>
+To suppress a lint warning in an XML file, add a tools:ignore="id" attribute on the element containing the error, or one of its surrounding elements. You also need to define the namespace for the tools prefix on the root element in your document, next to the xmlns:android declaration:<br/>
+* xmlns:tools="http://schemas.android.com/tools"<br/>
+<br/>
+To suppress lint warnings with a configuration XML file, create a file named lint.xml and place it at the root directory of the project in which it applies. (If you use the Eclipse plugin's Lint view, you can suppress errors there via the toolbar and Eclipse will create the lint.xml file for you.).<br/>
+<br/>
+The format of the lint.xml file is something like the following:<br/>
+<br/>
+&lt;?xml version="1.0" encoding="UTF-8"?><br/>
+&lt;lint><br/>
+    &lt;!-- Disable this given check in this project --><br/>
+    &lt;issue id="IconMissingDensityFolder" severity="ignore" /><br/>
+<br/>
+    &lt;!-- Ignore the ObsoleteLayoutParam issue in the given files --><br/>
+    &lt;issue id="ObsoleteLayoutParam"><br/>
+        &lt;ignore path="res/layout/activation.xml" /><br/>
+        &lt;ignore path="res/layout-xlarge/activation.xml" /><br/>
+    &lt;/issue><br/>
+<br/>
+    &lt;!-- Ignore the UselessLeaf issue in the given file --><br/>
+    &lt;issue id="UselessLeaf"><br/>
+        &lt;ignore path="res/layout/main.xml" /><br/>
+    &lt;/issue><br/>
+<br/>
+    &lt;!-- Change the severity of hardcoded strings to "error" --><br/>
+    &lt;issue id="HardcodedText" severity="error" /><br/>
+&lt;/lint><br/>
+<br/>
+To suppress lint checks from the command line, pass the --ignore flag with a comma separated list of ids to be suppressed, such as:<br/>
+"lint --ignore UnusedResources,UselessLeaf /my/project/path"<br/>
+
+
+</body>
+</html>

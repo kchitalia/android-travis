@@ -1,0 +1,9 @@
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/classes/test/debug
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/android-junit-report-1.5.8-a8cbbc51138763cc4753738ffec5fee1a2311268.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/httpmime-4.3.2-0874c887dea34a6f42fb0a3eec6b66a2ababccb4.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/volley_android-4.4.2_r2-6bf48f5de4d3cac9b12a675dda2f94200547d5c8.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/classes-d078f3f9bd9aa3f27bf9841006352b87232e8dfc.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/apache-mime4j-0.7.2-961ca8d08d26e59100d05e03c04006c5821086d3.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/sqlcipher-a5b15dbca22d3fd3dcf100d21d67a9269ce1b0ba.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/classes-c22eff2e99a065020b0ccb97086465af3c18bb21.jar
+/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/guava-18.0-9b03e57adb7d0824fc4f380f7f33fc74c3b04e80.jar

@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-73455d307302453db089ca0f5e5a7c8045f6f275.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-8f29ef0ac670c2e1f03286049f6e141e4131973b.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4cb83f3f9dd62153af6950de01c0b5cd48fb2176">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/classes-36ca0b0baffd041adaa5498a84a541194604500c.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/pre-dexed/debug/httpmime-4.3.2-0641ce5a0806ecee135cce4569288c8a2997cd07.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/guava-18.0-9b03e57adb7d0824fc4f380f7f33fc74c3b04e80.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/pre-dexed/test/debug/apache-mime4j-0.7.2-bc7c70c8094d9ec178a3b2481fc9dffa015f4ddc.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/pre-dexed/debug/classes-ab522929e5f2423971d4919afa9c359381a7371d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/debug/httpmime-4.3.2-12c35ff47881c10b0e92cbfccb48c4820f5807f7.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-720e0b65a1f0e4fc96886db07b48e21d7cc58f28.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/pre-dexed/test/debug/classes-a16f44f1c35bdf761a29ef11a35ef9a27b972a75.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-a9eb6599ca3910ec7990a90bb7fd010964367b25.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/bundles/debug/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f5b0abc8cf63c4d1a255da67b4c20d6979cc9c1f">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/pre-dexed/test/debug/classes-482e917eefe3a7f8ce60feba7dc5de125db86339.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/apache-mime4j-0.7.2-961ca8d08d26e59100d05e03c04006c5821086d3.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/debug/httpmime-4.3.2-aaf197c3ca27cbe2ddb9f05bab2158cebab78c7b.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-84f9ecf5ee131bf093e5269231f8072f533b5285.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4cb83f3f9dd62153af6950de01c0b5cd48fb2176">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/debug/classes-877020965537e4be81700190d99c021d74891d6e.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/pre-dexed/debug/classes-097b72fe0fae09819215269341d9e7adb02c378a.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/debug/guava-18.0-a9f54cc2380cb6c2540305e8b7100bdab3357e1d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-bc7a4ecc7219b0706824a9b1fc7338e0ae5ea272.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-5181c948748ce4156236f5f7cffc576372f82fd1.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4cb83f3f9dd62153af6950de01c0b5cd48fb2176">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/debug/classes-c14d66b749389d1ffcfb7ff916aaf3570096db5c.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/debug/guava-18.0-3be9af83b2e170d5017b4c6ffd40f14323746ec6.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/debug/guava-18.0-48d71cb198a4927950b0237fcc8c4cd4e0600edd.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/debug/httpmime-4.3.2-9f91338b3803af9f4b9731a3be2c02934fd9d51b.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/pre-dexed/test/debug/android-junit-report-1.5.8-453b38a278a664b28ad2fd1e1a06920b4cd56340.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-d1f6819073a32b812501d34d02f1531f08230d97.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/httpmime-4.3.2-d37ae18e2746bf08542cb025b2f3d93baf862ff4.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-2336cfd8772476d5b5ea7d19c192ba1a6a7badc7.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/debug/sqlcipher-98910087cbacc182dcf101e4958dea312ca4d670.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/httpmime-4.3.2-5481a7fd1a513fb7e4ba1ac785599a0ebd8e6347.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4cb83f3f9dd62153af6950de01c0b5cd48fb2176">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/debug/classes-9bded61a7c3be70d85839a3c7cc5246d4b9f3eca.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/debug/classes-67bd90e0f4ed5f5c76eac1ace754e18391ec6970.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-51f4af822b64f4a892558cedcc7128d424ecab83.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/debug/guava-18.0-3916a61019f1ec7ac7e96fcc6592bae629e41a9e.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/classes-97a72f08237c1a800e8d5d6e922ac26e9406a82c.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-ab685110852f661ee1f762dc35b05de96056091e.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/guava-18.0-04faaa2e8c3eab65d3f344f116fe1e3300bf6b3b.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4cb83f3f9dd62153af6950de01c0b5cd48fb2176">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/classes-f1b04e10c765897106947fea7a6aae767c87de3e.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/debug/classes-5e9559236aad296090874de74e49a00bd0f5ca49.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/guava-18.0-9c268e387b8076e3b68c9bee0e2c60a56ceebf51.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/debug/httpmime-4.3.2-a4123015f96b46ea8ef285ba0f2162dd123aeca0.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-d1071232bad7de38de31dabc39f5bd4e7f678af2.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-855767622b09a73f94f32c6d76c6b8a98d6e64fc.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartSync/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="863cedcad3d1f7f6c372f7993a17f21d1d78b9cd">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/debug/classes-990035992e9827abea6fe4136d98e83a4ca114ab.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/bundles/debug/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/pre-dexed/test/debug/android-junit-report-1.5.8-76621ff9809b84671c246d888049def459ffb382.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/debug/sqlcipher-605599f1b2a039741e3fdaf86f18258232decc21.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/volley_android-4.4.2_r2-6bf48f5de4d3cac9b12a675dda2f94200547d5c8.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/guava-18.0-50bebfdadc2283bd22fbbf1b081d762f39ac9db6.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/sqlcipher-f0a620c5d217c35ddbadaedff17ce456c489e026.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/bundles/debug/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="9fb108385d4e7e0d2a4a4d1a126e711df01fee30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/classes-d078f3f9bd9aa3f27bf9841006352b87232e8dfc.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-c79905ec5188eef70a9593c3412323464e0a3fbe.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/pre-dexed/debug/httpmime-4.3.2-6f7964155846da9c1dd870d0c280fdcf7ab32e20.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-5b270d228f9d0c7cfb6e3601c377180ee780cbc9.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/debug/sqlcipher-48e020968d86e5eb5d95b2154b4391aee4b0a6a3.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-8d2c2112aeb870e2005d1600b1d8ca3c9abb842b.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/httpmime-4.3.2-0874c887dea34a6f42fb0a3eec6b66a2ababccb4.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-de19c18b91cd61f90dc969ec1b34d1e42b050a1f.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/debug/guava-18.0-df962a3c4f97f16457ff3269df0d071e64a30c7c.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-b2cc7c00bee02f67424645c25e722aed399d321b.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-a45e071a4b85b2b83d7f0d1d3a1ffa5835d8a966.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/classes-457b157db82fd006ecf8c93d2ffd00ca77faf78f.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/classes-0d1c3c8abfa97ea2c663ea933ac279e7dd3dd357.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/debug/guava-18.0-2171f7a71f4916b1d6178209f944fe5fbfe2b24d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4cb83f3f9dd62153af6950de01c0b5cd48fb2176">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/classes-77be638d1125493b1eb582c13e8b0beff737450e.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/debug/httpmime-4.3.2-c0ae488c5d095a42b3a38541402ce13f1c2b4f96.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/android-junit-report-1.5.8-a8cbbc51138763cc4753738ffec5fee1a2311268.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-62af66f66bbdef3e592cf06dc8e3ca4376c30367.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/pre-dexed/test/debug/volley_android-4.4.2_r2-da1dbf1e8da3a14571f75ba197b3b25effef89de.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/pre-dexed/test/debug/volley_android-4.4.2_r2-e75b27ad25d7df406e7b3dd2ad598a2a29d67d04.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-34ec36e6c463702f838bd66c878b08fa709b5ff2.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartSync/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="863cedcad3d1f7f6c372f7993a17f21d1d78b9cd">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/classes-9c6948d5814a6cfc6bd298aff6a54e9ac9d04702.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-bf2c9ce9b10c46b20c1c65da18b986af95c05624.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-1e846bd915358b50b359414c6d632aa3f2bb4440.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/classes-ed0e44dcdd51ae1959a6888992e14591620418bb.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/sqlcipher-7e63c817591cdbef423a51ac82bcccdbe55e7634.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-339212581d7f5b7e2434b6aad611510ff0baf49d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-b4090fbd22208e0f334085cffcff15ac2334311c.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/bundles/debug/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ab877b90cd455786fd1551b7ba41a56f0fce2bb">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/pre-dexed/test/debug/classes-309fb192af3776543c759070c5e15fb43e6fc8e8.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/sqlcipher-6ba32c436bc4d3d9e6be73f509342444ea83b032.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/classes-8badcb4d64ab9971949984ba6134dbaea78d74c3.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4cb83f3f9dd62153af6950de01c0b5cd48fb2176">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/pre-dexed/test/debug/classes-3d18707b916cce47145adde8c15606190f118091.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/bundles/debug/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/pre-dexed/test/debug/apache-mime4j-0.7.2-f1b529fe55f3b0f3f64ae20a6c27e16f239a16ba.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-d9ae9c4a7ca697803834207e43c8b6e880e6adbd.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-bb4a09d99fe2476e8259eb8d1a63e7ebc8ad98b7.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/pre-dexed/debug/classes-44b5fa968a50ab3b80533c5b077b5d1f652a92f2.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-8467dec0390f64e9870c08fa030df1e0568e539d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-99c15dea541fb0f0c6714d822eec1c984ed5ae5d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4cb83f3f9dd62153af6950de01c0b5cd48fb2176">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/debug/classes-d45573959deb7807a2518ae8cdf685e962c50edc.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-f53d15ef363cf51369f66137705e16a235ea1868.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-f16e4b931c217da737f0da5c96e0602f85a5c3e3.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/pre-dexed/test/debug/guava-18.0-99277ef19af25a07dfbd05aad08fd987786bfb1d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartSync/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="863cedcad3d1f7f6c372f7993a17f21d1d78b9cd">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/classes-1fb1d4d071d6217a4dfcd676b9c284247434fd7d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/httpmime-4.3.2-a68529da813b556f349b83b09dd085407c881134.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/debug/guava-18.0-7f89a322192490e685a055927ba2270be4430fbd.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-a2fda71b7aa72175a879bc236391a58d6675ad4c.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/httpmime-4.3.2-7f0049956e9f1fb8e8e260756c3a2191fd69cad1.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/pre-dexed/test/debug/httpmime-4.3.2-c48582e38fa955704a0603da12cab6e9449e90df.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/pre-dexed/debug/guava-18.0-46eca49484b26d33ab08f32b4eab635a845a5bd2.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-0347c06b2f676442965d3581d0de0100111f3185.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/pre-dexed/debug/guava-18.0-c719fd12928b523c5e2a0286c1dd47816ca860a9.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-4d4d73e5277906d75023103af57e953599e60eae.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-74be4a0583c50896ed8ada03e067b92c93c5113a.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/debug/httpmime-4.3.2-a6c7f84b9ee418eb6aa5c6229e030e53b84f9582.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/VFConnector/build/intermediates/pre-dexed/debug/classes-a6dcc7ee9fc5b8f3f773db89281cb6572dd18609.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-411c5a22f56bf911a0e4892a55b4a83c7313a8df.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/debug/classes-2522f3b19063866a940546ee9c61f59ec51f8a96.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/UserList/build/intermediates/pre-dexed/debug/classes-6b3876cb58c0bc6f5b3e4666d1549c2ad6b63da5.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/ConfiguredApp/build/intermediates/pre-dexed/debug/guava-18.0-5f9a9486faa163841c7743c0fb0bc6fab02263a3.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4cb83f3f9dd62153af6950de01c0b5cd48fb2176">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/debug/classes-45380c9079fc11d5c1be40be0dd3ae57845f1b94.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/debug/classes-5eec0a3fab4c0aa26e330501f17b79f1b4208b9d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SmartStoreExplorer/build/intermediates/pre-dexed/debug/classes-ea478cb5c5285585bd21a423915df29d3c50847b.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-b7eca9daf107888f40e857f2d63b273e415d0a3c.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/RestExplorer/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-f5f045b73954b859d404a4fc2c90cbc34fc06eff.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/pre-dexed/test/debug/guava-18.0-4cd6cd24d014471635583b01e3e096ed23e610de.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/httpmime-4.3.2-33d181d546b4374c3d344a2841213f7d646aaf25.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/pre-dexed/debug/httpmime-4.3.2-bb4c5c094d1b2af142c6cab0336097bcb64225fc.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-f04e2d03a1a9008d9f6e3a50df5455784969ff28.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/test/ForcePluginsTest/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-35cdefa6f094234962b6ff53dc40fc79ab8be00d.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-fc1438a6e073088f1bb02bf914aa05daee971e61.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SalesforceSDK/build/intermediates/pre-dexed/test/debug/httpmime-4.3.2-c1ca44eb1e8f39b88c3f89a96c650a48014c1101.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-d126906aadb856f1532d3ae1203dfb6a187b9dbf.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/classes-c22eff2e99a065020b0ccb97086465af3c18bb21.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="04ed62c47559474b5ae1f697ed6c3f5b221e96db">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/debug/classes-6fddbda8b4acf2730b9b88e2b199b06adb2f23db.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/guava-18.0-c4764ad2131ae8ba6e8ede3a73bebfd883a23de2.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/SmartSyncExplorer/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-df058685a5e53076edeebb14b0457817609a51c7.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/NativeSqlAggregator/build/intermediates/pre-dexed/debug/httpmime-4.3.2-44eda2edaae16de2c83d887bb035025cf8398030.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/TemplateApp/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-5cd1613f69d5b0bffb29e49dfc106c84fdafda6e.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/ContactExplorer/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-05e21ee0ae00d6ee8cb5defa73b2d831b39d3562.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartStore/build/intermediates/pre-dexed/test/debug/sqlcipher-a5b15dbca22d3fd3dcf100d21d67a9269ce1b0ba.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/HybridFileExplorer/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-6b03dfd841e6bed0d810c39bb1b16a6711c4544a.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-c9b8f9df8e8815f73e7db199639dc67694e2e2e4.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/FileExplorer/build/intermediates/pre-dexed/debug/guava-18.0-fdf39b23c243c5e9d1cbbd9cc296f58d8d3b91ae.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/AccountEditor/build/intermediates/pre-dexed/debug/sqlcipher-b38e9c37aa9eaacdaaeb8115907ffc497a71ecaf.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/pre-dexed/debug/guava-18.0-71658f531e0a34e6eac2f17a02f620759040f621.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/libs/SmartSync/build/intermediates/pre-dexed/test/debug/sqlcipher-e63a29ccc07174eff0f4a1be96d94b84de8c6870.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-5d0bbc20f4c44319ec10b5f295e583406927093b.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartStore/unspecified/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91e70f787593bf360b4e09441246d931eb596e30">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/NoteSync/build/intermediates/pre-dexed/debug/sqlcipher-c900fd8be9f5038a3a0682e771a6cfe23ce2aab6.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/exploded-aar/com.salesforce.androidsdk/SmartSync/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="863cedcad3d1f7f6c372f7993a17f21d1d78b9cd">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/hybrid/SampleApps/SimpleSync/build/intermediates/pre-dexed/debug/classes-7be909b4b1c0ac9a1ab371645405a37d3036f5fc.jar" />
+    </item>
+    <item
+        jar="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/exploded-aar/com.salesforce.androidsdk/SalesforceSDK/unspecified/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/kchitalia/repo/SalesforceMobileSDK-Android/native/SampleApps/AppConfigurator/build/intermediates/pre-dexed/debug/httpmime-4.3.2-70c8f9339a3315bcd85a81f4a1a6cb9c19091fa7.jar" />
+    </item>
+
+</items>
